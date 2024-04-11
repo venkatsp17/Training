@@ -1,0 +1,14 @@
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\Questions.exe
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\Questions.deps.json
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\Questions.runtimeconfig.json
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\Questions.dll
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\Questions.pdb
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\Questions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\Questions.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\Questions.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\Questions.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\Questions.dll
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\refint\Questions.dll
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\Questions.pdb
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\Questions.genruntimeconfig.cache
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ref\Questions.dll

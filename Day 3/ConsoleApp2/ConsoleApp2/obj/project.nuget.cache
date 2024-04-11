@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TQLcKHSE0oKsjAs77hfV7nSKKA2aXqTwqVUDeN971n+Bm5/RnjNs0HkNUxFGg2VWswZSkYOtroFgU0mPENr5aQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\ConsoleApp2\\ConsoleApp2\\Questions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vc\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.3\\microsoft.dotnet.ilcompiler.8.0.3.nupkg.sha512",
+    "C:\\Users\\vc\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.3\\microsoft.net.illink.tasks.8.0.3.nupkg.sha512",
+    "C:\\Users\\vc\\.nuget\\packages\\sonaranalyzer.csharp\\9.23.1.88495\\sonaranalyzer.csharp.9.23.1.88495.nupkg.sha512",
+    "C:\\Users\\vc\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.3\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
