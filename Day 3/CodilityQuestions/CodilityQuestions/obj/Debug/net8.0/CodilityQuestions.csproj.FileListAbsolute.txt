@@ -1,0 +1,14 @@
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\bin\Debug\net8.0\CodilityQuestions.exe
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\bin\Debug\net8.0\CodilityQuestions.deps.json
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\bin\Debug\net8.0\CodilityQuestions.runtimeconfig.json
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\bin\Debug\net8.0\CodilityQuestions.dll
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\bin\Debug\net8.0\CodilityQuestions.pdb
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\obj\Debug\net8.0\CodilityQuestions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\obj\Debug\net8.0\CodilityQuestions.AssemblyInfoInputs.cache
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\obj\Debug\net8.0\CodilityQuestions.AssemblyInfo.cs
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\obj\Debug\net8.0\CodilityQuestions.csproj.CoreCompileInputs.cache
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\obj\Debug\net8.0\CodilityQuestions.dll
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\obj\Debug\net8.0\refint\CodilityQuestions.dll
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\obj\Debug\net8.0\CodilityQuestions.pdb
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\obj\Debug\net8.0\CodilityQuestions.genruntimeconfig.cache
+C:\Users\vc\source\repos\CodilityQuestions\CodilityQuestions\obj\Debug\net8.0\ref\CodilityQuestions.dll
