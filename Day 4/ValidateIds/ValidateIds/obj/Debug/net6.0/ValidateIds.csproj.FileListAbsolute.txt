@@ -1,0 +1,14 @@
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\bin\Debug\net6.0\ValidateIds.exe
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\bin\Debug\net6.0\ValidateIds.deps.json
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\bin\Debug\net6.0\ValidateIds.runtimeconfig.json
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\bin\Debug\net6.0\ValidateIds.dll
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\bin\Debug\net6.0\ValidateIds.pdb
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\obj\Debug\net6.0\ValidateIds.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\obj\Debug\net6.0\ValidateIds.AssemblyInfoInputs.cache
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\obj\Debug\net6.0\ValidateIds.AssemblyInfo.cs
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\obj\Debug\net6.0\ValidateIds.csproj.CoreCompileInputs.cache
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\obj\Debug\net6.0\ValidateIds.dll
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\obj\Debug\net6.0\refint\ValidateIds.dll
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\obj\Debug\net6.0\ValidateIds.pdb
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\obj\Debug\net6.0\ValidateIds.genruntimeconfig.cache
+C:\Users\vc\source\repos\ValidateIds\ValidateIds\obj\Debug\net6.0\ref\ValidateIds.dll
