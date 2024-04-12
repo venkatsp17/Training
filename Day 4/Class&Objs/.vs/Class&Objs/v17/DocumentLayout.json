@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\Class\u0026Objs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40B3D938-0CF6-4F10-B9B4-C9DE8350E03D}|Class\u0026Objs\\Class\u0026Objs.csproj|c:\\users\\vc\\desktop\\training\\day 4\\class\u0026objs\\class\u0026objs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B3D938-0CF6-4F10-B9B4-C9DE8350E03D}|Class\u0026Objs\\Class\u0026Objs.csproj|solutionrelative:class\u0026objs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B3D938-0CF6-4F10-B9B4-C9DE8350E03D}|Class\u0026Objs\\Class\u0026Objs.csproj|c:\\users\\vc\\desktop\\training\\day 4\\class\u0026objs\\class\u0026objs\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B3D938-0CF6-4F10-B9B4-C9DE8350E03D}|Class\u0026Objs\\Class\u0026Objs.csproj|solutionrelative:class\u0026objs\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\Class\u0026Objs\\Class\u0026Objs\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Class\u0026Objs\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\Class\u0026Objs\\Class\u0026Objs\\Models\\Employee.cs",
+              "RelativeToolTip": "Class\u0026Objs\\Models\\Employee.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T06:49:04.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\Class\u0026Objs\\Class\u0026Objs\\Program.cs",
+              "RelativeDocumentMoniker": "Class\u0026Objs\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\Class\u0026Objs\\Class\u0026Objs\\Program.cs",
+              "RelativeToolTip": "Class\u0026Objs\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T05:17:06.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

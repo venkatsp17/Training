@@ -1,0 +1,15 @@
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\bin\Debug\net6.0\Class&Objs.exe
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\bin\Debug\net6.0\Class&Objs.deps.json
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\bin\Debug\net6.0\Class&Objs.runtimeconfig.json
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\bin\Debug\net6.0\Class&Objs.dll
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\bin\Debug\net6.0\Class&Objs.pdb
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\obj\Debug\net6.0\Class&Objs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\obj\Debug\net6.0\Class&Objs.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\obj\Debug\net6.0\Class&Objs.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\obj\Debug\net6.0\Class&Objs.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\obj\Debug\net6.0\Class&Objs.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\obj\Debug\net6.0\Class&Objs.dll
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\obj\Debug\net6.0\refint\Class&Objs.dll
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\obj\Debug\net6.0\Class&Objs.pdb
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\obj\Debug\net6.0\Class&Objs.genruntimeconfig.cache
+C:\Users\vc\Desktop\Training\Day 4\Class&Objs\Class&Objs\obj\Debug\net6.0\ref\Class&Objs.dll
