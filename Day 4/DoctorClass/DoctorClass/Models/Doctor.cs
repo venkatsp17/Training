@@ -15,8 +15,15 @@ namespace DoctorClass.Models
         public string Qualification { get; set; }
         public string Specialization { get; set; }
 
+        /// <summary>
+        /// Constructor for Intialization of Object
+        /// </summary>
+        /// <param name="id">Id for Doctor as (int)</param>
         public Doctor(int id) => Id = id;
 
+        /// <summary>
+        /// Function that prints all Details of particular Doctor
+        /// </summary>
         public void PrintDetails()
         {
             Console.WriteLine($"Doctor Id\t:\t {Id}");

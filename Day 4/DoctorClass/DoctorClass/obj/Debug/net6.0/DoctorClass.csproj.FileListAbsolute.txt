@@ -12,3 +12,18 @@ C:\Users\vc\source\repos\DoctorClass\DoctorClass\obj\Debug\net6.0\refint\DoctorC
 C:\Users\vc\source\repos\DoctorClass\DoctorClass\obj\Debug\net6.0\DoctorClass.pdb
 C:\Users\vc\source\repos\DoctorClass\DoctorClass\obj\Debug\net6.0\DoctorClass.genruntimeconfig.cache
 C:\Users\vc\source\repos\DoctorClass\DoctorClass\obj\Debug\net6.0\ref\DoctorClass.dll
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\bin\Debug\net6.0\DoctorClass.exe
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\bin\Debug\net6.0\DoctorClass.deps.json
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\bin\Debug\net6.0\DoctorClass.runtimeconfig.json
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\bin\Debug\net6.0\DoctorClass.dll
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\bin\Debug\net6.0\DoctorClass.pdb
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\obj\Debug\net6.0\DoctorClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\obj\Debug\net6.0\DoctorClass.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\obj\Debug\net6.0\DoctorClass.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\obj\Debug\net6.0\DoctorClass.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\obj\Debug\net6.0\DoctorClass.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\obj\Debug\net6.0\DoctorClass.dll
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\obj\Debug\net6.0\refint\DoctorClass.dll
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\obj\Debug\net6.0\DoctorClass.pdb
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\obj\Debug\net6.0\DoctorClass.genruntimeconfig.cache
+C:\Users\vc\Desktop\Training\Day 4\DoctorClass\DoctorClass\obj\Debug\net6.0\ref\DoctorClass.dll

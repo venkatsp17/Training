@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vc\\source\\repos\\ValidateIds\\ValidateIds\\ValidateIds.csproj": {}
+    "C:\\Users\\vc\\Desktop\\Training\\Day 4\\ValidateIds\\ValidateIds\\ValidateIds.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vc\\source\\repos\\ValidateIds\\ValidateIds\\ValidateIds.csproj": {
+    "C:\\Users\\vc\\Desktop\\Training\\Day 4\\ValidateIds\\ValidateIds\\ValidateIds.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vc\\source\\repos\\ValidateIds\\ValidateIds\\ValidateIds.csproj",
+        "projectUniqueName": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\ValidateIds\\ValidateIds\\ValidateIds.csproj",
         "projectName": "ValidateIds",
-        "projectPath": "C:\\Users\\vc\\source\\repos\\ValidateIds\\ValidateIds\\ValidateIds.csproj",
+        "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\ValidateIds\\ValidateIds\\ValidateIds.csproj",
         "packagesPath": "C:\\Users\\vc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vc\\source\\repos\\ValidateIds\\ValidateIds\\obj\\",
+        "outputPath": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\ValidateIds\\ValidateIds\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

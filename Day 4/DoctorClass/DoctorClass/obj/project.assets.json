@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vc\\source\\repos\\DoctorClass\\DoctorClass\\DoctorClass.csproj",
+      "projectUniqueName": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\DoctorClass\\DoctorClass\\DoctorClass.csproj",
       "projectName": "DoctorClass",
-      "projectPath": "C:\\Users\\vc\\source\\repos\\DoctorClass\\DoctorClass\\DoctorClass.csproj",
+      "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\DoctorClass\\DoctorClass\\DoctorClass.csproj",
       "packagesPath": "C:\\Users\\vc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vc\\source\\repos\\DoctorClass\\DoctorClass\\obj\\",
+      "outputPath": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\DoctorClass\\DoctorClass\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ValidateIds
-build_property.ProjectDir = C:\Users\vc\source\repos\ValidateIds\ValidateIds\
+build_property.ProjectDir = C:\Users\vc\Desktop\Training\Day 4\ValidateIds\ValidateIds\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

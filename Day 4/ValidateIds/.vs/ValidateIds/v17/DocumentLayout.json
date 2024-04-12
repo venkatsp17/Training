@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vc\\source\\repos\\ValidateIds\\",
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\ValidateIds\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71A7E0AB-514D-4628-8FAD-E887797FA984}|ValidateIds\\ValidateIds.csproj|c:\\users\\vc\\source\\repos\\validateids\\validateids\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{71A7E0AB-514D-4628-8FAD-E887797FA984}|ValidateIds\\ValidateIds.csproj|c:\\users\\vc\\desktop\\training\\day 4\\validateids\\validateids\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71A7E0AB-514D-4628-8FAD-E887797FA984}|ValidateIds\\ValidateIds.csproj|solutionrelative:validateids\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\source\\repos\\ValidateIds\\ValidateIds\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\ValidateIds\\ValidateIds\\Program.cs",
               "RelativeDocumentMoniker": "ValidateIds\\Program.cs",
-              "ToolTip": "C:\\Users\\vc\\source\\repos\\ValidateIds\\ValidateIds\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 4\\ValidateIds\\ValidateIds\\Program.cs",
               "RelativeToolTip": "ValidateIds\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwA8AAAA2AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T10:41:36.109Z",
               "EditorCaption": ""

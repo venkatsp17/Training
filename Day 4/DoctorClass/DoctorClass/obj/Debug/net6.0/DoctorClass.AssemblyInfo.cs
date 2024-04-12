@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoctorClass")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dccf55f1f1bfe08e6b66d4433b9ffd97ab2f1434")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04e3a910f8fe57ad29145f08cb0865b529bae08a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoctorClass")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoctorClass")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

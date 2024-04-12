@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            long id = long.Parse(Console.ReadLine());
+            long id;
+            while (!(long.TryParse(Console.ReadLine(), out id)))
+            {
+                Console.WriteLine("Invalid Entry! Try Again..");
+            }
             int c = 1;
             long rev=0;
             while(id > 0)
