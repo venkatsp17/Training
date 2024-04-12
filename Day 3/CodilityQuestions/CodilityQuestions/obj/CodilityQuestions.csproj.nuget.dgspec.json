@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj": {}
+    "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj": {
+    "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj",
+        "projectUniqueName": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj",
         "projectName": "CodilityQuestions",
-        "projectPath": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj",
+        "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj",
         "packagesPath": "C:\\Users\\vc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\obj\\",
+        "outputPath": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

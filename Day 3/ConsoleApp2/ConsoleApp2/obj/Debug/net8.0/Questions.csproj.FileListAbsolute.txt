@@ -12,3 +12,4 @@ C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\refi
 C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\Questions.pdb
 C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\Questions.genruntimeconfig.cache
 C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ref\Questions.dll
+C:\Users\vc\Desktop\Training\Day 3\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\Questions.sourcelink.json

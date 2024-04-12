@@ -1,26 +1,35 @@
-﻿namespace ValidateIds
+﻿using System.Net.Sockets;
+
+namespace ValidateIds
 {
-    internal class Program
+    class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Get Digit sum if it is two digit number or return number by multiplting it by 2
+        /// </summary>
+        /// <param name="digit">Digit as (int)</param>
+        /// <returns></returns>
+        static int GetDigitSum(int digit)
         {
-            long id;
-            while (!(long.TryParse(Console.ReadLine(), out id)))
-            {
-                Console.WriteLine("Invalid Entry! Try Again..");
-            }
+            digit *= 2;
+            return digit < 10 ? digit : digit / 10 + digit % 10;
+        }
+
+        /// <summary>
+        /// Function that validates Id and return bool
+        /// </summary>
+        /// <param name="id">Get id as (long)</param>
+        /// <returns></returns>
+        static bool ValidateID(long id)
+        {
             int c = 1;
-            long rev=0;
-            while(id > 0)
+            long rev = 0;
+            while (id > 0)
             {
                 int digit = (int)(id % 10);
-                if(c%2==0)
+                if (c % 2 == 0)
                 {
-                    digit *= 2;
-                    if((digit.ToString()).Length == 2)
-                    {
-                        digit = digit / 10 + digit % 10;
-                    }
+                    digit = GetDigitSum(digit);
                 }
                 rev += digit;
                 id /= 10;
@@ -28,9 +37,37 @@
             }
             if (rev % 10 == 0)
             {
-                Console.WriteLine("Valid ID");
+                return true;
             }
-            //Console.WriteLine(rev);
+            return false;
+        }
+
+        /// <summary>
+        /// Function to get Long Input
+        /// </summary>
+        /// <returns></returns>
+         static long GetLongInp()
+        {
+            Console.WriteLine("Enter a number:");
+            long id;
+            while (!(long.TryParse(Console.ReadLine(), out id)))
+            {
+                Console.WriteLine("Invalid Entry! Try Again..");
+            }
+            return id;
+        }
+
+        static void Main(string[] args)
+        {
+            long id = GetLongInp();   
+            if(ValidateID(id))
+            {
+                Console.WriteLine($"{id} is Valid!");
+            }
+            else
+            {
+                Console.WriteLine($"{id} not is Valid!");
+            }
         }
     }
 }

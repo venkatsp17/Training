@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             List<int> arr = [];
+            Console.WriteLine("Enter the number:");
             int num1 = Convert.ToInt32(Console.ReadLine()); 
             while (num1 > 0)
             {

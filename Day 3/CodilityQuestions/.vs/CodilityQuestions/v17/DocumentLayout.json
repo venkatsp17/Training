@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\",
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|c:\\users\\vc\\source\\repos\\codilityquestions\\codilityquestions\\program3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|c:\\users\\vc\\desktop\\training\\day 3\\codilityquestions\\codilityquestions\\program3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|solutionrelative:codilityquestions\\program3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|c:\\users\\vc\\source\\repos\\codilityquestions\\codilityquestions\\program2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|c:\\users\\vc\\desktop\\training\\day 3\\codilityquestions\\codilityquestions\\codilityquestions.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|solutionrelative:codilityquestions\\codilityquestions.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|c:\\users\\vc\\desktop\\training\\day 3\\codilityquestions\\codilityquestions\\codilityquestions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|solutionrelative:codilityquestions\\codilityquestions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|c:\\users\\vc\\desktop\\training\\day 3\\codilityquestions\\codilityquestions\\program2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|solutionrelative:codilityquestions\\program2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|c:\\users\\vc\\source\\repos\\codilityquestions\\codilityquestions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|solutionrelative:codilityquestions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|c:\\users\\vc\\desktop\\training\\day 3\\codilityquestions\\codilityquestions\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|solutionrelative:codilityquestions\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|c:\\users\\vc\\source\\repos\\codilityquestions\\codilityquestions\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|solutionrelative:codilityquestions\\program1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|c:\\users\\vc\\desktop\\training\\day 3\\codilityquestions\\codilityquestions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7386318C-33D9-4FF4-89B1-A967B0519779}|CodilityQuestions\\CodilityQuestions.csproj|solutionrelative:codilityquestions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CodilityQuestions",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj",
+              "RelativeDocumentMoniker": "CodilityQuestions\\CodilityQuestions.csproj",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj",
+              "RelativeToolTip": "CodilityQuestions\\CodilityQuestions.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-12T13:53:40.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CodilityQuestions",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj",
+              "RelativeDocumentMoniker": "CodilityQuestions\\CodilityQuestions.csproj",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\CodilityQuestions.csproj",
+              "RelativeToolTip": "CodilityQuestions\\CodilityQuestions.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-12T13:53:43.033Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program3.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\Program3.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\Program3.cs",
               "RelativeDocumentMoniker": "CodilityQuestions\\Program3.cs",
-              "ToolTip": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\Program3.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\Program3.cs",
               "RelativeToolTip": "CodilityQuestions\\Program3.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T15:00:33.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program2.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\Program2.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\Program2.cs",
               "RelativeDocumentMoniker": "CodilityQuestions\\Program2.cs",
-              "ToolTip": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\Program2.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\Program2.cs",
               "RelativeToolTip": "CodilityQuestions\\Program2.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwA4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T14:53:30.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program1.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\Program1.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\Program1.cs",
               "RelativeDocumentMoniker": "CodilityQuestions\\Program1.cs",
-              "ToolTip": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\Program1.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\Program1.cs",
               "RelativeToolTip": "CodilityQuestions\\Program1.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAoAAAAnAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T14:30:58.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\Program.cs",
               "RelativeDocumentMoniker": "CodilityQuestions\\Program.cs",
-              "ToolTip": "C:\\Users\\vc\\source\\repos\\CodilityQuestions\\CodilityQuestions\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 3\\CodilityQuestions\\CodilityQuestions\\Program.cs",
               "RelativeToolTip": "CodilityQuestions\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwBsAAAAVAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwCEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T11:31:25.578Z",
               "EditorCaption": ""

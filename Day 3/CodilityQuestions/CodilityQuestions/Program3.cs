@@ -11,6 +11,7 @@ namespace CodilityQuestions
         static void Main(string[] args)
         {
             int x = 10, y = 85, d = 30;
+            Console.WriteLine("Minimum no of jumps required:");
             Console.WriteLine(Math.Ceiling((double)(y-x)/(double)30));
         }
     }

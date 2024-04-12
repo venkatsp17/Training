@@ -198,29 +198,29 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             //sum, sub, product, division, remainder
-            //Console.WriteLine("Calculate Add, Sub, Product, Divison, Remainder");
-            //Calculate(); 
+            Console.WriteLine("Calculate Add, Sub, Product, Divison, Remainder");
+            Calculate(); 
 
 
 
             // Finding Greatest number
-            //Console.WriteLine("Find Greatest of All");
-            //FindGreatest(); 
+            Console.WriteLine("Find Greatest of All");
+            FindGreatest(); 
 
 
 
             //Find Avg of numbers Divisible by 7
-            //Console.WriteLine("Find Avg of numbers Divisible by 7");
-            //FindAvgBy7();
+            Console.WriteLine("Find Avg of numbers Divisible by 7");
+            FindAvgBy7();
 
 
             //Length of Name
-            //Console.WriteLine("Find Length of Name");
-            //StringLength();
+            Console.WriteLine("Find Length of Name");
+            StringLength();
 
             //User Login
-            //Console.WriteLine("User Login");
-            //UserLogin();
+            Console.WriteLine("User Login");
+            UserLogin();
 
             //Find minimum Vowel words.
             Console.WriteLine("Find minimum vowel word");

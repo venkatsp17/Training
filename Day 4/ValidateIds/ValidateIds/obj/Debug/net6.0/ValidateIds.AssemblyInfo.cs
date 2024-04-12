@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ValidateIds")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04e3a910f8fe57ad29145f08cb0865b529bae08a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+454d850d9acf0ee9a672a8d103bbd7d79dd38510")]
 [assembly: System.Reflection.AssemblyProductAttribute("ValidateIds")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ValidateIds")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
