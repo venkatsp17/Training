@@ -1,0 +1,23 @@
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\bin\Debug\net6.0\ReqTrackerModelLib.deps.json
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\bin\Debug\net6.0\ReqTrackerModelLib.dll
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\bin\Debug\net6.0\ReqTrackerModelLib.pdb
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.AssemblyInfoInputs.cache
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.AssemblyInfo.cs
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.csproj.CoreCompileInputs.cache
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.dll
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\refint\ReqTrackerModelLib.dll
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.pdb
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ref\ReqTrackerModelLib.dll
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\bin\Debug\net6.0\ReqTrackerModelLib.deps.json
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\bin\Debug\net6.0\ReqTrackerModelLib.dll
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\bin\Debug\net6.0\ReqTrackerModelLib.pdb
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.dll
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\refint\ReqTrackerModelLib.dll
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ReqTrackerModelLib.pdb
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerClass\obj\Debug\net6.0\ref\ReqTrackerModelLib.dll

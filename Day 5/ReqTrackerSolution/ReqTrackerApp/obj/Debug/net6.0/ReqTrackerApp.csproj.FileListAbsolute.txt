@@ -1,0 +1,37 @@
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerApp.exe
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerApp.deps.json
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerApp.runtimeconfig.json
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerApp.dll
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerApp.pdb
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.AssemblyInfoInputs.cache
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.AssemblyInfo.cs
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.csproj.CoreCompileInputs.cache
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.dll
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\refint\ReqTrackerApp.dll
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.pdb
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.genruntimeconfig.cache
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ref\ReqTrackerApp.dll
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerModelLib.dll
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerModelLib.pdb
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.csproj.AssemblyReference.cache
+C:\Users\vc\source\repos\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrack.EB214A27.Up2Date
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.csproj.AssemblyReference.cache
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerApp.exe
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerApp.deps.json
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerApp.runtimeconfig.json
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerApp.dll
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerApp.pdb
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerModelLib.dll
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\bin\Debug\net6.0\ReqTrackerModelLib.pdb
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrack.EB214A27.Up2Date
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.dll
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\refint\ReqTrackerApp.dll
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.pdb
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ReqTrackerApp.genruntimeconfig.cache
+C:\Users\vc\Desktop\Training\Day 5\ReqTrackerSolution\ReqTrackerApp\obj\Debug\net6.0\ref\ReqTrackerApp.dll

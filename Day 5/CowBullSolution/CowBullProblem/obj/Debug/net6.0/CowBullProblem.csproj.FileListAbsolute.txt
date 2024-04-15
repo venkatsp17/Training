@@ -1,0 +1,14 @@
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\bin\Debug\net6.0\CowBullProblem.exe
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\bin\Debug\net6.0\CowBullProblem.deps.json
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\bin\Debug\net6.0\CowBullProblem.runtimeconfig.json
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\bin\Debug\net6.0\CowBullProblem.dll
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\bin\Debug\net6.0\CowBullProblem.pdb
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\obj\Debug\net6.0\CowBullProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\obj\Debug\net6.0\CowBullProblem.AssemblyInfoInputs.cache
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\obj\Debug\net6.0\CowBullProblem.AssemblyInfo.cs
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\obj\Debug\net6.0\CowBullProblem.csproj.CoreCompileInputs.cache
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\obj\Debug\net6.0\CowBullProblem.dll
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\obj\Debug\net6.0\refint\CowBullProblem.dll
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\obj\Debug\net6.0\CowBullProblem.pdb
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\obj\Debug\net6.0\CowBullProblem.genruntimeconfig.cache
+C:\Users\vc\source\repos\CowBullSolution\CowBullProblem\obj\Debug\net6.0\ref\CowBullProblem.dll
