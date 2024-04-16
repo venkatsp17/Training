@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 6\\practisesessionsolution\\modelclasslibrary\\contractemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|solutionrelative:modelclasslibrary\\contractemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 6\\practisesessionsolution\\modelclasslibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|solutionrelative:modelclasslibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91634901-1464-493C-B7E2-F9DFC3049420}|PractiseSessionApp\\PractiseSessionApp.csproj|c:\\users\\vc\\desktop\\training\\day 6\\practisesessionsolution\\practisesessionapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91634901-1464-493C-B7E2-F9DFC3049420}|PractiseSessionApp\\PractiseSessionApp.csproj|solutionrelative:practisesessionapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 6\\practisesessionsolution\\modelclasslibrary\\permanentemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|solutionrelative:modelclasslibrary\\permanentemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 6\\practisesessionsolution\\modelclasslibrary\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|solutionrelative:modelclasslibrary\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 6\\practisesessionsolution\\modelclasslibrary\\clientinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|solutionrelative:modelclasslibrary\\clientinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 6\\practisesessionsolution\\modelclasslibrary\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39952A13-06F4-414D-AF2B-411CB35B6DD1}|ModelClassLibrary\\ModelClassLibrary.csproj|solutionrelative:modelclasslibrary\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\Company.cs",
+              "RelativeDocumentMoniker": "ModelClassLibrary\\Company.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\Company.cs",
+              "RelativeToolTip": "ModelClassLibrary\\Company.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAD4vw0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T08:38:04.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PermanentEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\PermanentEmployee.cs",
+              "RelativeDocumentMoniker": "ModelClassLibrary\\PermanentEmployee.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\PermanentEmployee.cs",
+              "RelativeToolTip": "ModelClassLibrary\\PermanentEmployee.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T05:48:33.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\PractiseSessionApp\\Program.cs",
+              "RelativeDocumentMoniker": "PractiseSessionApp\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\PractiseSessionApp\\Program.cs",
+              "RelativeToolTip": "PractiseSessionApp\\Program.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAEAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T04:59:06.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\Employee.cs",
+              "RelativeDocumentMoniker": "ModelClassLibrary\\Employee.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\Employee.cs",
+              "RelativeToolTip": "ModelClassLibrary\\Employee.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAIwCMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T05:00:13.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContractEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\ContractEmployee.cs",
+              "RelativeDocumentMoniker": "ModelClassLibrary\\ContractEmployee.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\ContractEmployee.cs",
+              "RelativeToolTip": "ModelClassLibrary\\ContractEmployee.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAD4vxYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T05:02:46.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\ClientInteraction.cs",
+              "RelativeDocumentMoniker": "ModelClassLibrary\\ClientInteraction.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\ClientInteraction.cs",
+              "RelativeToolTip": "ModelClassLibrary\\ClientInteraction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T08:35:16.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\Department.cs",
+              "RelativeDocumentMoniker": "ModelClassLibrary\\Department.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\PractiseSessionSolution\\ModelClassLibrary\\Department.cs",
+              "RelativeToolTip": "ModelClassLibrary\\Department.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T05:01:35.209Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

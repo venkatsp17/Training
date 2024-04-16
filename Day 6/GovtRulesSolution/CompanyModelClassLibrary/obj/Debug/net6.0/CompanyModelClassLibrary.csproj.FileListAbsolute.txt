@@ -1,0 +1,12 @@
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\bin\Debug\net6.0\CompanyModelClassLibrary.deps.json
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\bin\Debug\net6.0\CompanyModelClassLibrary.dll
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\bin\Debug\net6.0\CompanyModelClassLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\obj\Debug\net6.0\CompanyModelClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\obj\Debug\net6.0\CompanyModelClassLibrary.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\obj\Debug\net6.0\CompanyModelClassLibrary.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\obj\Debug\net6.0\CompanyModelClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\obj\Debug\net6.0\CompanyModelClassLibrary.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\obj\Debug\net6.0\CompanyModelClassLibrary.dll
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\obj\Debug\net6.0\refint\CompanyModelClassLibrary.dll
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\obj\Debug\net6.0\CompanyModelClassLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 6\GovtRulesSolution\CompanyModelClassLibrary\obj\Debug\net6.0\ref\CompanyModelClassLibrary.dll
