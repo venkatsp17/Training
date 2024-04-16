@@ -19,7 +19,7 @@ namespace CompanyModelClassLibrary
         public override double EmployeePF(double basicSalary)
         {
             //EMPLOYER_CONTRIBUTION = basicSalary*0.0833;
-            return ((basicSalary) * 0.12)*2;
+            return ((basicSalary) * 0.12);
         }
 
         public override string LeaveDetails()

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\GovtRulesSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF97737A-8C4F-4111-B050-A2C5EA4CF490}|GovtRulesApp\\GovtRulesApp.csproj|c:\\users\\vc\\desktop\\training\\day 6\\govtrulessolution\\govtrulesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF97737A-8C4F-4111-B050-A2C5EA4CF490}|GovtRulesApp\\GovtRulesApp.csproj|solutionrelative:govtrulesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3CF09FC-6865-498B-96C8-35E7FE303E69}|CompanyModelClassLibrary\\CompanyModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 6\\govtrulessolution\\companymodelclasslibrary\\abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CF09FC-6865-498B-96C8-35E7FE303E69}|CompanyModelClassLibrary\\CompanyModelClassLibrary.csproj|solutionrelative:companymodelclasslibrary\\abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3CF09FC-6865-498B-96C8-35E7FE303E69}|CompanyModelClassLibrary\\CompanyModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 6\\govtrulessolution\\companymodelclasslibrary\\xyz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3CF09FC-6865-498B-96C8-35E7FE303E69}|CompanyModelClassLibrary\\CompanyModelClassLibrary.csproj|solutionrelative:companymodelclasslibrary\\xyz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3CF09FC-6865-498B-96C8-35E7FE303E69}|CompanyModelClassLibrary\\CompanyModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 6\\govtrulessolution\\companymodelclasslibrary\\abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3CF09FC-6865-498B-96C8-35E7FE303E69}|CompanyModelClassLibrary\\CompanyModelClassLibrary.csproj|solutionrelative:companymodelclasslibrary\\abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF97737A-8C4F-4111-B050-A2C5EA4CF490}|GovtRulesApp\\GovtRulesApp.csproj|c:\\users\\vc\\desktop\\training\\day 6\\govtrulessolution\\govtrulesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF97737A-8C4F-4111-B050-A2C5EA4CF490}|GovtRulesApp\\GovtRulesApp.csproj|solutionrelative:govtrulesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3CF09FC-6865-498B-96C8-35E7FE303E69}|CompanyModelClassLibrary\\CompanyModelClassLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 6\\govtrulessolution\\companymodelclasslibrary\\govtrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -42,8 +42,7 @@
               "RelativeToolTip": "CompanyModelClassLibrary\\GovtRules.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAIwA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:31:07.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T11:31:07.393Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "CompanyModelClassLibrary\\XYZ.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\GovtRulesSolution\\CompanyModelClassLibrary\\XYZ.cs",
               "RelativeToolTip": "CompanyModelClassLibrary\\XYZ.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAcwCMAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwBYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T10:31:24.174Z",
               "EditorCaption": ""
@@ -68,25 +67,24 @@
               "RelativeToolTip": "CompanyModelClassLibrary\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T10:31:35.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T10:31:35.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ABC.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\GovtRulesSolution\\CompanyModelClassLibrary\\ABC.cs",
               "RelativeDocumentMoniker": "CompanyModelClassLibrary\\ABC.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\GovtRulesSolution\\CompanyModelClassLibrary\\ABC.cs",
               "RelativeToolTip": "CompanyModelClassLibrary\\ABC.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAmwDIAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwBcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T10:31:31.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 6\\GovtRulesSolution\\GovtRulesApp\\Program.cs",
               "RelativeDocumentMoniker": "GovtRulesApp\\Program.cs",
@@ -94,8 +92,7 @@
               "RelativeToolTip": "GovtRulesApp\\Program.cs",
               "ViewState": "AQIAAH0AAAAAAAAAAADwv4MAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T09:09:51.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T09:09:51.387Z"
             }
           ]
         }
