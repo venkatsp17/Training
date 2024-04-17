@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7CF0D01-5F7D-4B63-B463-4F2B282428EA}|DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 7\\doctorclinicsolution\\doctorclinicdallibrary\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7CF0D01-5F7D-4B63-B463-4F2B282428EA}|DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj|solutionrelative:doctorclinicdallibrary\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7CF0D01-5F7D-4B63-B463-4F2B282428EA}|DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 7\\doctorclinicsolution\\doctorclinicdallibrary\\doctorclinicdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C7CF0D01-5F7D-4B63-B463-4F2B282428EA}|DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj|solutionrelative:doctorclinicdallibrary\\doctorclinicdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D528B12-F76D-421A-AEDD-CA1C7AAB55CF}|DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 7\\doctorclinicsolution\\doctorclinicbllibrary\\iappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D528B12-F76D-421A-AEDD-CA1C7AAB55CF}|DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj|solutionrelative:doctorclinicbllibrary\\iappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D528B12-F76D-421A-AEDD-CA1C7AAB55CF}|DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 7\\doctorclinicsolution\\doctorclinicbllibrary\\idoctorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D528B12-F76D-421A-AEDD-CA1C7AAB55CF}|DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj|solutionrelative:doctorclinicbllibrary\\idoctorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D528B12-F76D-421A-AEDD-CA1C7AAB55CF}|DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 7\\doctorclinicsolution\\doctorclinicbllibrary\\ipatientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D528B12-F76D-421A-AEDD-CA1C7AAB55CF}|DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj|solutionrelative:doctorclinicbllibrary\\ipatientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D528B12-F76D-421A-AEDD-CA1C7AAB55CF}|DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 7\\doctorclinicsolution\\doctorclinicbllibrary\\idoctorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D528B12-F76D-421A-AEDD-CA1C7AAB55CF}|DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj|solutionrelative:doctorclinicbllibrary\\idoctorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D528B12-F76D-421A-AEDD-CA1C7AAB55CF}|DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 7\\doctorclinicsolution\\doctorclinicbllibrary\\iappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D528B12-F76D-421A-AEDD-CA1C7AAB55CF}|DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj|solutionrelative:doctorclinicbllibrary\\iappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0D01-5F7D-4B63-B463-4F2B282428EA}|DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 7\\doctorclinicsolution\\doctorclinicdallibrary\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF0D01-5F7D-4B63-B463-4F2B282428EA}|DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj|solutionrelative:doctorclinicdallibrary\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF0D01-5F7D-4B63-B463-4F2B282428EA}|DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 7\\doctorclinicsolution\\doctorclinicdallibrary\\doctorclinicdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C7CF0D01-5F7D-4B63-B463-4F2B282428EA}|DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj|solutionrelative:doctorclinicdallibrary\\doctorclinicdallibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{928D93C4-931A-47C4-99EC-A9952AF1EDBC}|DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 7\\doctorclinicsolution\\doctorclinicmodellibrary\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,17 +66,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AppointmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicDALLibrary\\AppointmentRepository.cs",
               "RelativeDocumentMoniker": "DoctorClinicDALLibrary\\AppointmentRepository.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicDALLibrary\\AppointmentRepository.cs",
               "RelativeToolTip": "DoctorClinicDALLibrary\\AppointmentRepository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBgAAAANAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T12:13:15.951Z",
               "EditorCaption": ""
@@ -89,14 +89,14 @@
               "RelativeDocumentMoniker": "DoctorClinicBLLibrary\\IAppointmentServices.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicBLLibrary\\IAppointmentServices.cs",
               "RelativeToolTip": "DoctorClinicBLLibrary\\IAppointmentServices.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAzwDcAAAAWAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwDcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T10:31:56.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "IPatientServices.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicBLLibrary\\IPatientServices.cs",
               "RelativeDocumentMoniker": "DoctorClinicBLLibrary\\IPatientServices.cs",
@@ -109,13 +109,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "IDoctorServices.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicBLLibrary\\IDoctorServices.cs",
               "RelativeDocumentMoniker": "DoctorClinicBLLibrary\\IDoctorServices.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicBLLibrary\\IDoctorServices.cs",
               "RelativeToolTip": "DoctorClinicBLLibrary\\IDoctorServices.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAA2wCgAAAAfAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwCgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T10:10:37.695Z",
               "EditorCaption": ""
@@ -130,21 +130,19 @@
               "RelativeToolTip": "DoctorClinicModelLibrary\\Patient.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:23:14.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T11:23:14.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DoctorClinicDALLibrary",
+              "DocumentIndex": 4,
+              "Title": "DoctorClinicDALLibrary.csproj",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj",
               "RelativeDocumentMoniker": "DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj",
               "RelativeToolTip": "DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-17T11:22:04.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T11:22:04.487Z"
             },
             {
               "$type": "Document",
@@ -156,8 +154,7 @@
               "RelativeToolTip": "DoctorClinicModelLibrary\\Doctor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:23:12.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T11:23:12.737Z"
             },
             {
               "$type": "Document",
@@ -169,8 +166,7 @@
               "RelativeToolTip": "DoctorClinicDALLibrary\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:23:02.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T11:23:02.205Z"
             },
             {
               "$type": "Document",
