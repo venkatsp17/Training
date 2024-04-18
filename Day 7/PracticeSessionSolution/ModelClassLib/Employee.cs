@@ -44,6 +44,8 @@
             Role = role;
         }
 
+        public void 
+
         public virtual void BuildEmployeeFromConsole()
         {
             Console.WriteLine("Please enter the Name");

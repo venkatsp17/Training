@@ -1,0 +1,15 @@
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\bin\Debug\net6.0\ConceptDemoApp.exe
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\bin\Debug\net6.0\ConceptDemoApp.deps.json
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\bin\Debug\net6.0\ConceptDemoApp.runtimeconfig.json
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\bin\Debug\net6.0\ConceptDemoApp.dll
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\bin\Debug\net6.0\ConceptDemoApp.pdb
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\obj\Debug\net6.0\ConceptDemoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\obj\Debug\net6.0\ConceptDemoApp.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\obj\Debug\net6.0\ConceptDemoApp.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\obj\Debug\net6.0\ConceptDemoApp.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\obj\Debug\net6.0\ConceptDemoApp.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\obj\Debug\net6.0\ConceptDemoApp.dll
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\obj\Debug\net6.0\refint\ConceptDemoApp.dll
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\obj\Debug\net6.0\ConceptDemoApp.pdb
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\obj\Debug\net6.0\ConceptDemoApp.genruntimeconfig.cache
+C:\Users\vc\Desktop\Training\Day 7\ConceptDemoSolution\ConceptDemoApp\obj\Debug\net6.0\ref\ConceptDemoApp.dll
