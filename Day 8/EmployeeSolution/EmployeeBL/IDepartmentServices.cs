@@ -19,5 +19,7 @@ namespace EmployeeBLLibrary
 
         public int GetDepartmentHeadId(int departmentId);
 
+        public Department DeleteDepartmentByName(string name);
+
         public List<Department> GetDepartmentList();
 }

@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EmployeeBL\EmployeeBLLibrary.csproj" />
     <ProjectReference Include="..\ModelClassLib\ModelClassLib.csproj" />
   </ItemGroup>
 

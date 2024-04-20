@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModeClassDALLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed2945281f8734441389caf837d26b2a1e528a59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+481616b4e39f0a86b8b1158cbf57612121b93c65")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModeClassDALLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModeClassDALLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

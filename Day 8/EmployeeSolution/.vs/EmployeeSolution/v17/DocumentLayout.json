@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{299DA2E5-0FA0-40D2-8994-E0A1D2CC42B6}|ModeClassDALLibrary\\ModeClassDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\modeclassdallibrary\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299DA2E5-0FA0-40D2-8994-E0A1D2CC42B6}|ModeClassDALLibrary\\ModeClassDALLibrary.csproj|solutionrelative:modeclassdallibrary\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{299DA2E5-0FA0-40D2-8994-E0A1D2CC42B6}|ModeClassDALLibrary\\ModeClassDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\modeclassdallibrary\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{299DA2E5-0FA0-40D2-8994-E0A1D2CC42B6}|ModeClassDALLibrary\\ModeClassDALLibrary.csproj|solutionrelative:modeclassdallibrary\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\idepartmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\idepartmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\employeebllibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\employeebllibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61D31BF1-24AC-41B2-8CA5-DA38BF36A647}|ModelClassLib\\ModelClassLib.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\modelclasslib\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61D31BF1-24AC-41B2-8CA5-DA38BF36A647}|ModelClassLib\\ModelClassLib.csproj|solutionrelative:modelclasslib\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D31BF1-24AC-41B2-8CA5-DA38BF36A647}|ModelClassLib\\ModelClassLib.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\modelclasslib\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D31BF1-24AC-41B2-8CA5-DA38BF36A647}|ModelClassLib\\ModelClassLib.csproj|solutionrelative:modelclasslib\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{299DA2E5-0FA0-40D2-8994-E0A1D2CC42B6}|ModeClassDALLibrary\\ModeClassDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\modeclassdallibrary\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299DA2E5-0FA0-40D2-8994-E0A1D2CC42B6}|ModeClassDALLibrary\\ModeClassDALLibrary.csproj|solutionrelative:modeclassdallibrary\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C6082D-2C89-4F1B-A111-AE3C0BEC7B38}|EmployeeApp\\EmployeeApp.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeeapp\\employeeapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90C6082D-2C89-4F1B-A111-AE3C0BEC7B38}|EmployeeApp\\EmployeeApp.csproj|solutionrelative:employeeapp\\employeeapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\employeeexceptions\\employeenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\employeeexceptions\\employeenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299DA2E5-0FA0-40D2-8994-E0A1D2CC42B6}|ModeClassDALLibrary\\ModeClassDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\modeclassdallibrary\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299DA2E5-0FA0-40D2-8994-E0A1D2CC42B6}|ModeClassDALLibrary\\ModeClassDALLibrary.csproj|solutionrelative:modeclassdallibrary\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\employeeexceptions\\duplicateemployeeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\employeeexceptions\\duplicateemployeeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\idepartmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\idepartmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{299DA2E5-0FA0-40D2-8994-E0A1D2CC42B6}|ModeClassDALLibrary\\ModeClassDALLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\modeclassdallibrary\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{299DA2E5-0FA0-40D2-8994-E0A1D2CC42B6}|ModeClassDALLibrary\\ModeClassDALLibrary.csproj|solutionrelative:modeclassdallibrary\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\departmentexceptions\\nodataavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\departmentexceptions\\nodataavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\departmentexceptions\\departmentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\departmentexceptions\\departmentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\employeebl\\departmentexceptions\\duplicatedepartmentnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9831BFC3-7E17-410F-8F6E-75882C33C683}|EmployeeBL\\EmployeeBLLibrary.csproj|solutionrelative:employeebl\\departmentexceptions\\duplicatedepartmentnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61D31BF1-24AC-41B2-8CA5-DA38BF36A647}|ModelClassLib\\ModelClassLib.csproj|c:\\users\\vc\\desktop\\training\\day 8\\employeesolution\\modelclasslib\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,80 +73,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeBLLibrary",
-              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\EmployeeBLLibrary.csproj",
-              "RelativeDocumentMoniker": "EmployeeBL\\EmployeeBLLibrary.csproj",
-              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\EmployeeBLLibrary.csproj",
-              "RelativeToolTip": "EmployeeBL\\EmployeeBLLibrary.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "EmployeeApp",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeApp\\EmployeeApp.csproj",
+              "RelativeDocumentMoniker": "EmployeeApp\\EmployeeApp.csproj",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeApp\\EmployeeApp.csproj",
+              "RelativeToolTip": "EmployeeApp\\EmployeeApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-18T11:25:40.91Z",
+              "WhenOpened": "2024-04-20T11:05:03.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IDepartmentServices.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\IDepartmentServices.cs",
-              "RelativeDocumentMoniker": "EmployeeBL\\IDepartmentServices.cs",
-              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\IDepartmentServices.cs",
-              "RelativeToolTip": "EmployeeBL\\IDepartmentServices.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAA0AAAA",
+              "Title": "IEmployeeServices.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\IEmployeeServices.cs",
+              "RelativeDocumentMoniker": "EmployeeBL\\IEmployeeServices.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\IEmployeeServices.cs",
+              "RelativeToolTip": "EmployeeBL\\IEmployeeServices.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T11:26:03.888Z",
+              "WhenOpened": "2024-04-20T10:25:25.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "EmployeeBL.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\EmployeeBL.cs",
+              "RelativeDocumentMoniker": "EmployeeBL\\EmployeeBL.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\EmployeeBL.cs",
+              "RelativeToolTip": "EmployeeBL\\EmployeeBL.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAcwJkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:33:57.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DepartmentBL.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\DepartmentBL.cs",
               "RelativeDocumentMoniker": "EmployeeBL\\DepartmentBL.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\DepartmentBL.cs",
               "RelativeToolTip": "EmployeeBL\\DepartmentBL.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA0AAAAAAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAwwGQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T11:21:53.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModeClassDALLibrary\\DepartmentRepository.cs",
-              "RelativeDocumentMoniker": "ModeClassDALLibrary\\DepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModeClassDALLibrary\\DepartmentRepository.cs",
-              "RelativeToolTip": "ModeClassDALLibrary\\DepartmentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModelClassLib\\Employee.cs",
+              "RelativeDocumentMoniker": "ModelClassLib\\Employee.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModelClassLib\\Employee.cs",
+              "RelativeToolTip": "ModelClassLib\\Employee.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAiwEoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:54:36.441Z",
+              "WhenOpened": "2024-04-17T04:42:48.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModeClassDALLibrary\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "ModeClassDALLibrary\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModeClassDALLibrary\\EmployeeRepository.cs",
+              "RelativeToolTip": "ModeClassDALLibrary\\EmployeeRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwBUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:24:15.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\EmployeeExceptions\\EmployeeNotFoundException.cs",
+              "RelativeDocumentMoniker": "EmployeeBL\\EmployeeExceptions\\EmployeeNotFoundException.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\EmployeeExceptions\\EmployeeNotFoundException.cs",
+              "RelativeToolTip": "EmployeeBL\\EmployeeExceptions\\EmployeeNotFoundException.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:51:21.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModeClassDALLibrary\\IRepository.cs",
               "RelativeDocumentMoniker": "ModeClassDALLibrary\\IRepository.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModeClassDALLibrary\\IRepository.cs",
               "RelativeToolTip": "ModeClassDALLibrary\\IRepository.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwAsAAAAVAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T06:56:17.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "DuplicateEmployeeException.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\EmployeeExceptions\\DuplicateEmployeeException.cs",
+              "RelativeDocumentMoniker": "EmployeeBL\\EmployeeExceptions\\DuplicateEmployeeException.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\EmployeeExceptions\\DuplicateEmployeeException.cs",
+              "RelativeToolTip": "EmployeeBL\\EmployeeExceptions\\DuplicateEmployeeException.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:33:49.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModeClassDALLibrary\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "ModeClassDALLibrary\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModeClassDALLibrary\\DepartmentRepository.cs",
+              "RelativeToolTip": "ModeClassDALLibrary\\DepartmentRepository.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowDsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:54:36.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDepartmentServices.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\IDepartmentServices.cs",
+              "RelativeDocumentMoniker": "EmployeeBL\\IDepartmentServices.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\IDepartmentServices.cs",
+              "RelativeToolTip": "EmployeeBL\\IDepartmentServices.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T11:26:03.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NoDataAvailableException.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\DepartmentExceptions\\NoDataAvailableException.cs",
+              "RelativeDocumentMoniker": "EmployeeBL\\DepartmentExceptions\\NoDataAvailableException.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\DepartmentExceptions\\NoDataAvailableException.cs",
+              "RelativeToolTip": "EmployeeBL\\DepartmentExceptions\\NoDataAvailableException.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:54:19.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartmentNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\DepartmentExceptions\\DepartmentNotFoundException.cs",
+              "RelativeDocumentMoniker": "EmployeeBL\\DepartmentExceptions\\DepartmentNotFoundException.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\DepartmentExceptions\\DepartmentNotFoundException.cs",
+              "RelativeToolTip": "EmployeeBL\\DepartmentExceptions\\DepartmentNotFoundException.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:45:25.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DuplicateDepartmentNameException.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\DepartmentExceptions\\DuplicateDepartmentNameException.cs",
+              "RelativeDocumentMoniker": "EmployeeBL\\DepartmentExceptions\\DuplicateDepartmentNameException.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\DepartmentExceptions\\DuplicateDepartmentNameException.cs",
+              "RelativeToolTip": "EmployeeBL\\DepartmentExceptions\\DuplicateDepartmentNameException.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T06:41:47.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Request.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModelClassLib\\Request.cs",
               "RelativeDocumentMoniker": "ModelClassLib\\Request.cs",
@@ -126,37 +267,11 @@
               "RelativeToolTip": "ModelClassLib\\Request.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA1wBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T04:45:00.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T04:45:00.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModelClassLib\\Department.cs",
-              "RelativeDocumentMoniker": "ModelClassLib\\Department.cs",
-              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModelClassLib\\Department.cs",
-              "RelativeToolTip": "ModelClassLib\\Department.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAswBEAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T04:43:48.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModelClassLib\\Employee.cs",
-              "RelativeDocumentMoniker": "ModelClassLib\\Employee.cs",
-              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModelClassLib\\Employee.cs",
-              "RelativeToolTip": "ModelClassLib\\Employee.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAIwEoAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T04:42:48.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\PracticeSessionSolution\\PracticeSessionApp\\Program.cs",
               "RelativeDocumentMoniker": "..\\PracticeSessionSolution\\PracticeSessionApp\\Program.cs",

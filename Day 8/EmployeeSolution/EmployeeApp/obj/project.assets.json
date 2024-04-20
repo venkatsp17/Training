@@ -2,6 +2,33 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "EmployeeBLLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ModeClassDALLibrary": "1.0.0",
+          "ModelClassLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeBLLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeBLLibrary.dll": {}
+        }
+      },
+      "ModeClassDALLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ModelClassLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ModeClassDALLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModeClassDALLibrary.dll": {}
+        }
+      },
       "ModelClassLib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +42,16 @@
     }
   },
   "libraries": {
+    "EmployeeBLLibrary/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeBL/EmployeeBLLibrary.csproj",
+      "msbuildProject": "../EmployeeBL/EmployeeBLLibrary.csproj"
+    },
+    "ModeClassDALLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ModeClassDALLibrary/ModeClassDALLibrary.csproj",
+      "msbuildProject": "../ModeClassDALLibrary/ModeClassDALLibrary.csproj"
+    },
     "ModelClassLib/1.0.0": {
       "type": "project",
       "path": "../ModelClassLib/ModelClassLib.csproj",
@@ -23,6 +60,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "EmployeeBLLibrary >= 1.0.0",
       "ModelClassLib >= 1.0.0"
     ]
   },
@@ -58,6 +96,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\EmployeeBLLibrary.csproj": {
+              "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\EmployeeBL\\EmployeeBLLibrary.csproj"
+            },
             "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModelClassLib\\ModelClassLib.csproj": {
               "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 8\\EmployeeSolution\\ModelClassLib\\ModelClassLib.csproj"
             }
