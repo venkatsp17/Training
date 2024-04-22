@@ -28,12 +28,11 @@ namespace RefundManagementModelLibrary
             Amount = 0;
         }
 
-        public Expense(Employee employee, int expenseId, string expenseType, DateTime date, string description, double amount)
+        public Expense(Employee employee, string expenseType, string description, double amount)
         {
             Employee = employee;
-            ExpenseId = expenseId;
             ExpenseType = expenseType;
-            Date = date;
+            Date = DateTime.Now;
             Description = description;
             Amount = amount;
         }
@@ -46,7 +45,9 @@ namespace RefundManagementModelLibrary
                 + "\nExpense Type       : " + ExpenseType
                 + "\nDate of Expense    : " + Date
                 + "\nDescription        : " + Description
-                + "\nAmount             : " + Amount;
+                + "\nAmount             : " + Amount
+                + "\nApproved           : " + IsApproved
+                + "\nRefusal Reason     : " + RefusalReason;
         }
     }
 

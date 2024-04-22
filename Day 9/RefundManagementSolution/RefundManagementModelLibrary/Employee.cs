@@ -33,9 +33,8 @@ namespace RefundManagementModelLibrary
             Salary = 0;
         }
 
-        public Employee(int employeeId, string name, string department, double salary)
+        public Employee(string name, string department, double salary)
         {
-            EmployeeId = employeeId;
             Name = name;
             Department = department;
             Salary = salary;

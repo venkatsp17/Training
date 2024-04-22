@@ -39,7 +39,7 @@ namespace RefundManagementBL
             var employee = _employeeRepository.Get(employeeId);
             if (employee != null)
             {
-                _employeeRepository.Delete(employee.EmployeeId);
+                _employeeRepository.Delete(employeeId);
             }
             throw new EmployeeNotFoundException();
         }

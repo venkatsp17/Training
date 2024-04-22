@@ -1,11 +1,67 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "RefundManagementBL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RefundManagementDAL": "1.0.0",
+          "RefundManagementModelLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RefundManagementBL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RefundManagementBL.dll": {}
+        }
+      },
+      "RefundManagementDAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RefundManagementModelLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RefundManagementDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RefundManagementDAL.dll": {}
+        }
+      },
+      "RefundManagementModelLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RefundManagementModelLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RefundManagementModelLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RefundManagementBL/1.0.0": {
+      "type": "project",
+      "path": "../RefundManagementBL/RefundManagementBL.csproj",
+      "msbuildProject": "../RefundManagementBL/RefundManagementBL.csproj"
+    },
+    "RefundManagementDAL/1.0.0": {
+      "type": "project",
+      "path": "../RefundManagementDAL/RefundManagementDAL.csproj",
+      "msbuildProject": "../RefundManagementDAL/RefundManagementDAL.csproj"
+    },
+    "RefundManagementModelLibrary/1.0.0": {
+      "type": "project",
+      "path": "../RefundManagementModelLibrary/RefundManagementModelLibrary.csproj",
+      "msbuildProject": "../RefundManagementModelLibrary/RefundManagementModelLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "RefundManagementBL >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\vc\\.nuget\\packages\\": {},
@@ -38,7 +94,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\RefundManagementBL.csproj": {
+              "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\RefundManagementBL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

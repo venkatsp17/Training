@@ -34,7 +34,7 @@ namespace RefundManagementBL
             var expense = _expenseRepository.Get(expenseId);
             if (expense != null)
             {
-                _expenseRepository.Delete(expense.ExpenseId);
+                _expenseRepository.Delete(expenseId);
             }
             throw new ExpenseNotFoundException();
         }
@@ -101,10 +101,7 @@ namespace RefundManagementBL
             if (expense != null)
             {
                 expense.IsApproved = IsApproved;
-                if (!IsApproved)
-                {
-                    expense.RefusalReason = RefusalReason;
-                }
+                expense.RefusalReason = RefusalReason;
                 return _expenseRepository.Update(expense);
             }
             throw new ExpenseNotFoundException();

@@ -1,0 +1,16 @@
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\bin\Debug\net6.0\RefundManagementDAL.deps.json
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\bin\Debug\net6.0\RefundManagementDAL.dll
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\bin\Debug\net6.0\RefundManagementDAL.pdb
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\bin\Debug\net6.0\RefundManagementModelLibrary.dll
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\bin\Debug\net6.0\RefundManagementModelLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\RefundManagementDAL.csproj.AssemblyReference.cache
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\RefundManagementDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\RefundManagementDAL.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\RefundManagementDAL.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\RefundManagementDAL.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\RefundManagementDAL.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\RefundMa.9BBA133E.Up2Date
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\RefundManagementDAL.dll
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\refint\RefundManagementDAL.dll
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\RefundManagementDAL.pdb
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementDAL\obj\Debug\net6.0\ref\RefundManagementDAL.dll
