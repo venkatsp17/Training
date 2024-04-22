@@ -1,0 +1,12 @@
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\bin\Debug\net6.0\RefundManagementModelLibrary.deps.json
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\bin\Debug\net6.0\RefundManagementModelLibrary.dll
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\bin\Debug\net6.0\RefundManagementModelLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.dll
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\refint\RefundManagementModelLibrary.dll
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\RefundManagementModelLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 9\RefundManagementSolution\RefundManagementModelLibrary\obj\Debug\net6.0\ref\RefundManagementModelLibrary.dll

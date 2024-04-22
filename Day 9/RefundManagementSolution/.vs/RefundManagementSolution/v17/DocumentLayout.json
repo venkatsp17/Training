@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD34B901-E8BE-433D-959C-7F73DC7873A7}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 9\\refundmanagementsolution\\refundmanagementmodellibrary\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD34B901-E8BE-433D-959C-7F73DC7873A7}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|solutionrelative:refundmanagementmodellibrary\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD34B901-E8BE-433D-959C-7F73DC7873A7}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|c:\\users\\vc\\desktop\\training\\day 9\\refundmanagementsolution\\refundmanagementmodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD34B901-E8BE-433D-959C-7F73DC7873A7}|RefundManagementModelLibrary\\RefundManagementModelLibrary.csproj|solutionrelative:refundmanagementmodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,19 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementModelLibrary\\Expense.cs",
+              "RelativeDocumentMoniker": "RefundManagementModelLibrary\\Expense.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementModelLibrary\\Expense.cs",
+              "RelativeToolTip": "RefundManagementModelLibrary\\Expense.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwBQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T04:43:34.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementModelLibrary\\Employee.cs",
               "RelativeDocumentMoniker": "RefundManagementModelLibrary\\Employee.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementModelLibrary\\Employee.cs",
               "RelativeToolTip": "RefundManagementModelLibrary\\Employee.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAA5wBoAAAAbAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T04:17:06.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementApp\\Program.cs",
               "RelativeDocumentMoniker": "RefundManagementApp\\Program.cs",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "RefundManagementApp\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T04:15:56.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T04:15:56.197Z"
             }
           ]
         }

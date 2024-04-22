@@ -20,6 +20,8 @@ namespace RefundManagementModelLibrary
                     ExpenseAcess = true;
             } 
         }
+
+        public double Salary { get; set;  }
         bool ExpenseAcess { get; set; } = false;
 
         public Employee()
@@ -28,20 +30,23 @@ namespace RefundManagementModelLibrary
             Name = string.Empty;
             Department = string.Empty;
             ExpenseAcess = false;
+            Salary = 0;
         }
 
-        public Employee(int employeeId, string name, string department)
+        public Employee(int employeeId, string name, string department, double salary)
         {
             EmployeeId = employeeId;
             Name = name;
             Department = department;
+            Salary = salary;
         }
 
         public override string ToString()
         {
             return "\nEmployee Id  : " + EmployeeId
-                + "\nEmployee Name :" + Name
-                + "\nDepartment    : " + Department;
+                + "\nEmployee Name : " + Name
+                + "\nDepartment    : " + Department
+                + "\nSalary        : " + Salary;        
         }
     }
 }
