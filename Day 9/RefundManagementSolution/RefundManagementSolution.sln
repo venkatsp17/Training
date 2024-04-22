@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefundManagementApp", "Refu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefundManagementModelLibrary", "RefundManagementModelLibrary\RefundManagementModelLibrary.csproj", "{FD34B901-E8BE-433D-959C-7F73DC7873A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundManagementDAL", "RefundManagementDAL\RefundManagementDAL.csproj", "{BC90C3C4-3D93-4B27-9C91-EBB1AA2B4AC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefundManagementDAL", "RefundManagementDAL\RefundManagementDAL.csproj", "{BC90C3C4-3D93-4B27-9C91-EBB1AA2B4AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundManagementBL", "RefundManagementBL\RefundManagementBL.csproj", "{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{BC90C3C4-3D93-4B27-9C91-EBB1AA2B4AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC90C3C4-3D93-4B27-9C91-EBB1AA2B4AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC90C3C4-3D93-4B27-9C91-EBB1AA2B4AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
