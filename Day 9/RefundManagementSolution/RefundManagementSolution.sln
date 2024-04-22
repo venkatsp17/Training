@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundManagementApp", "RefundManagementApp\RefundManagementApp.csproj", "{A7C2C322-273A-432E-A499-571104077D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundManagementModelLibrary", "RefundManagementModelLibrary\RefundManagementModelLibrary.csproj", "{FD34B901-E8BE-433D-959C-7F73DC7873A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C2C322-273A-432E-A499-571104077D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C2C322-273A-432E-A499-571104077D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C2C322-273A-432E-A499-571104077D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C2C322-273A-432E-A499-571104077D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD34B901-E8BE-433D-959C-7F73DC7873A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD34B901-E8BE-433D-959C-7F73DC7873A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD34B901-E8BE-433D-959C-7F73DC7873A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD34B901-E8BE-433D-959C-7F73DC7873A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F29FBFD-75CF-4486-B25F-0E0D80B6A15C}
+	EndGlobalSection
+EndGlobal
