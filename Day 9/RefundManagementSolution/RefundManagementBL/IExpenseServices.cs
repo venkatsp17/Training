@@ -11,11 +11,11 @@ namespace RefundManagementBL
     public interface IExpenseServices
     {
         int AddExpense(Expense expense);
-        Employee GetExpenseById(int expenseId);
+        Expense GetExpenseById(int expenseId);
         List<Expense> GetAllExpenses();
         List<Expense> GetAllExpensesByType(string type);
         List<Expense> GetAllExpensesByEmployeeId(int employeeId);
-        Employee UpdateExpense(bool IsApproved, string RefusalReason, int employeeId);
-        Employee DeleteExpense(int expenseId);
+        Expense ApproveRefuseExpense(bool IsApproved, string RefusalReason, int employeeId);
+        Expense DeleteExpense(int expenseId);
     }
 }

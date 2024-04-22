@@ -14,8 +14,10 @@ namespace RefundManagementBL
         List<Employee> GetAllEmployees();
         string GetEmployeeName(int employeeId);
         string GetEmployeeDepartment(int employeeId);
-        Employee UpdateEmployeeName(string EmployeeOldName, string EmployeeNewName);
+        Employee UpdateEmployeeName(string EmployeeNewName, int employeeId);
         Employee UpdateEmployeeSalaryById(int employeeId, double NewSalary);
         Employee DeleteEmployeeByID(int employeeId);
+
+        bool CanAuthorizeExpense(int employeeId);
     }
 }

@@ -24,6 +24,16 @@ namespace RefundManagementBL
             throw new DuplicateEmployeeException();
         }
 
+        public bool CanAuthorizeExpense(int employeeId)
+        {
+            var employee = _employeeRepository.Get(employeeId);
+            if (employee != null)
+            {
+                return employee.GetExpenseAccess();
+            }
+            throw new AccessDeniedException();
+        }
+
         public Employee DeleteEmployeeByID(int employeeId)
         {
             var employee = _employeeRepository.Get(employeeId);
@@ -74,40 +84,26 @@ namespace RefundManagementBL
             throw new EmployeeNotFoundException();
         }
 
-        public Employee UpdateEmployeeName(string EmployeeOldName, string EmployeeNewName)
+        public Employee UpdateEmployeeName(string EmployeeNewName, int employeeId)
         {
-            var employees = _employeeRepository.GetAll();
-            if (employees != null)
+            var employee = _employeeRepository.Get(employeeId);
+            if (employee != null)
             {
-                foreach (var employee in employees)
-                {
-                    if (employee.Name == EmployeeOldName)
-                    {
-                        employee.Name = EmployeeNewName;
-                        _employeeRepository.Update(employee);
-                        return employee;
-                    }
-                }
-
+             employee.Name = EmployeeNewName;
+             _employeeRepository.Update(employee);
+             return employee;
             }
             throw new EmployeeNotFoundException();
         }
 
         public Employee UpdateEmployeeSalaryById(int employeeId, double NewSalary)
         {
-            var employees = _employeeRepository.GetAll();
-            if (employees != null)
+            var employee = _employeeRepository.Get(employeeId);
+            if (employee != null)
             {
-                foreach (var employee in employees)
-                {
-                    if (employee.EmployeeId == employeeId)
-                    {
-                        employee.Salary = NewSalary;
-                        _employeeRepository.Update(employee);
-                        return employee;
-                    }
-                }
-
+                employee.Salary = NewSalary;
+                _employeeRepository.Update(employee);
+                return employee;
             }
             throw new EmployeeNotFoundException();
         }

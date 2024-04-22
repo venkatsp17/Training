@@ -41,6 +41,11 @@ namespace RefundManagementModelLibrary
             Salary = salary;
         }
 
+        public bool GetExpenseAccess()
+        {
+            return ExpenseAcess;
+        }
+
         public override string ToString()
         {
             return "\nEmployee Id  : " + EmployeeId
