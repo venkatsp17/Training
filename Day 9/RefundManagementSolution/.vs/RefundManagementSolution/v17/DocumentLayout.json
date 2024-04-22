@@ -11,6 +11,18 @@
       "RelativeMoniker": "D:0:0:{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}|RefundManagementBL\\RefundManagementBL.csproj|solutionrelative:refundmanagementbl\\iexpenseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}|RefundManagementBL\\RefundManagementBL.csproj|c:\\users\\vc\\desktop\\training\\day 9\\refundmanagementsolution\\refundmanagementbl\\exceptions\\generalexceptions\\nodataavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}|RefundManagementBL\\RefundManagementBL.csproj|solutionrelative:refundmanagementbl\\exceptions\\generalexceptions\\nodataavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}|RefundManagementBL\\RefundManagementBL.csproj|c:\\users\\vc\\desktop\\training\\day 9\\refundmanagementsolution\\refundmanagementbl\\exceptions\\employeeexceptions\\employeenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}|RefundManagementBL\\RefundManagementBL.csproj|solutionrelative:refundmanagementbl\\exceptions\\employeeexceptions\\employeenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}|RefundManagementBL\\RefundManagementBL.csproj|c:\\users\\vc\\desktop\\training\\day 9\\refundmanagementsolution\\refundmanagementbl\\exceptions\\employeeexceptions\\duplicateemployeeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}|RefundManagementBL\\RefundManagementBL.csproj|solutionrelative:refundmanagementbl\\exceptions\\employeeexceptions\\duplicateemployeeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}|RefundManagementBL\\RefundManagementBL.csproj|c:\\users\\vc\\desktop\\training\\day 9\\refundmanagementsolution\\refundmanagementbl\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1485F1A5-C17F-431E-BD4A-1C103C5BF2D3}|RefundManagementBL\\RefundManagementBL.csproj|solutionrelative:refundmanagementbl\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,8 +58,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NoDataAvailableException.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\Exceptions\\GeneralExceptions\\NoDataAvailableException.cs",
+              "RelativeDocumentMoniker": "RefundManagementBL\\Exceptions\\GeneralExceptions\\NoDataAvailableException.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\Exceptions\\GeneralExceptions\\NoDataAvailableException.cs",
+              "RelativeToolTip": "RefundManagementBL\\Exceptions\\GeneralExceptions\\NoDataAvailableException.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:28:07.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\Exceptions\\EmployeeExceptions\\EmployeeNotFoundException.cs",
+              "RelativeDocumentMoniker": "RefundManagementBL\\Exceptions\\EmployeeExceptions\\EmployeeNotFoundException.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\Exceptions\\EmployeeExceptions\\EmployeeNotFoundException.cs",
+              "RelativeToolTip": "RefundManagementBL\\Exceptions\\EmployeeExceptions\\EmployeeNotFoundException.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:25:40.593Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -56,22 +94,9 @@
               "RelativeDocumentMoniker": "RefundManagementBL\\IExpenseServices.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\IExpenseServices.cs",
               "RelativeToolTip": "RefundManagementBL\\IExpenseServices.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwA4AAAAnAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwA4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T06:03:55.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IEmployeeServices.cs",
-              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\IEmployeeServices.cs",
-              "RelativeDocumentMoniker": "RefundManagementBL\\IEmployeeServices.cs",
-              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\IEmployeeServices.cs",
-              "RelativeToolTip": "RefundManagementBL\\IEmployeeServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T05:27:14.598Z",
               "EditorCaption": ""
             },
             {
@@ -82,7 +107,7 @@
               "RelativeDocumentMoniker": "RefundManagementBL\\EmployeeBL.cs",
               "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\EmployeeBL.cs",
               "RelativeToolTip": "RefundManagementBL\\EmployeeBL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAswEcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T05:26:24.356Z",
               "EditorCaption": ""
@@ -90,6 +115,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DuplicateEmployeeException.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\Exceptions\\EmployeeExceptions\\DuplicateEmployeeException.cs",
+              "RelativeDocumentMoniker": "RefundManagementBL\\Exceptions\\EmployeeExceptions\\DuplicateEmployeeException.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\Exceptions\\EmployeeExceptions\\DuplicateEmployeeException.cs",
+              "RelativeToolTip": "RefundManagementBL\\Exceptions\\EmployeeExceptions\\DuplicateEmployeeException.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:23:43.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmployeeServices.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\IEmployeeServices.cs",
+              "RelativeDocumentMoniker": "RefundManagementBL\\IEmployeeServices.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementBL\\IEmployeeServices.cs",
+              "RelativeToolTip": "RefundManagementBL\\IEmployeeServices.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T05:27:14.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ExpenseRepository.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementDAL\\ExpenseRepository.cs",
               "RelativeDocumentMoniker": "RefundManagementDAL\\ExpenseRepository.cs",
@@ -97,12 +148,11 @@
               "RelativeToolTip": "RefundManagementDAL\\ExpenseRepository.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAuwBEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T05:16:35.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T05:16:35.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Expense.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementModelLibrary\\Expense.cs",
               "RelativeDocumentMoniker": "RefundManagementModelLibrary\\Expense.cs",
@@ -110,12 +160,11 @@
               "RelativeToolTip": "RefundManagementModelLibrary\\Expense.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAABIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T04:43:34.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T04:43:34.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementDAL\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "RefundManagementDAL\\EmployeeRepository.cs",
@@ -127,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementModelLibrary\\Employee.cs",
               "RelativeDocumentMoniker": "RefundManagementModelLibrary\\Employee.cs",
@@ -135,12 +184,11 @@
               "RelativeToolTip": "RefundManagementModelLibrary\\Employee.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAA3wCkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T04:17:06.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T04:17:06.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementDAL\\IRepository.cs",
               "RelativeDocumentMoniker": "RefundManagementDAL\\IRepository.cs",
@@ -152,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 9\\RefundManagementSolution\\RefundManagementApp\\Program.cs",
               "RelativeDocumentMoniker": "RefundManagementApp\\Program.cs",
