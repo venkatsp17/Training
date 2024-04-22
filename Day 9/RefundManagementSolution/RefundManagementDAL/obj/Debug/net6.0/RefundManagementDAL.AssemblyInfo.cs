@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RefundManagementDAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e52fa71055757d3405e7947026deaa032046244")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d44313e393e7d545337d3235f85abe11959f58d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("RefundManagementDAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RefundManagementDAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
