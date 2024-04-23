@@ -1,0 +1,12 @@
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\bin\Debug\net6.0\ModelClassLib.deps.json
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\bin\Debug\net6.0\ModelClassLib.dll
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\bin\Debug\net6.0\ModelClassLib.pdb
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\obj\Debug\net6.0\ModelClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\obj\Debug\net6.0\ModelClassLib.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\obj\Debug\net6.0\ModelClassLib.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\obj\Debug\net6.0\ModelClassLib.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\obj\Debug\net6.0\ModelClassLib.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\obj\Debug\net6.0\ModelClassLib.dll
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\obj\Debug\net6.0\refint\ModelClassLib.dll
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\obj\Debug\net6.0\ModelClassLib.pdb
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModelClassLib\obj\Debug\net6.0\ref\ModelClassLib.dll

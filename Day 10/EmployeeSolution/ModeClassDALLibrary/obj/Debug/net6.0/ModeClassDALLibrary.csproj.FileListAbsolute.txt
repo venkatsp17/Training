@@ -1,0 +1,16 @@
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\bin\Debug\net6.0\ModeClassDALLibrary.deps.json
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\bin\Debug\net6.0\ModeClassDALLibrary.dll
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\bin\Debug\net6.0\ModeClassDALLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\bin\Debug\net6.0\ModelClassLib.dll
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\bin\Debug\net6.0\ModelClassLib.pdb
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\ModeClassDALLibrary.csproj.AssemblyReference.cache
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\ModeClassDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\ModeClassDALLibrary.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\ModeClassDALLibrary.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\ModeClassDALLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\ModeClassDALLibrary.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\ModeClas.09B9ECBC.Up2Date
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\ModeClassDALLibrary.dll
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\refint\ModeClassDALLibrary.dll
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\ModeClassDALLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 10\EmployeeSolution\ModeClassDALLibrary\obj\Debug\net6.0\ref\ModeClassDALLibrary.dll

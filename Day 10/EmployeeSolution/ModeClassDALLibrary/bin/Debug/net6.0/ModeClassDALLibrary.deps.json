@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ModeClassDALLibrary/1.0.0": {
+        "dependencies": {
+          "ModelClassLib": "1.0.0"
+        },
+        "runtime": {
+          "ModeClassDALLibrary.dll": {}
+        }
+      },
+      "ModelClassLib/1.0.0": {
+        "runtime": {
+          "ModelClassLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModeClassDALLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelClassLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
