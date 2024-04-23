@@ -2,12 +2,13 @@
 using ModeClassDALLibrary;
 using ModelClassLibrary;
 using DoctorClinicBLLibrary.DoctorExceptions;
+using System.Diagnostics.CodeAnalysis;
 namespace DoctorClinicBLLibrary
 {
     public class DoctorBL : IDoctorServices
     {
         readonly IRepository<int, Doctor> _doctorRepository;
-
+        [ExcludeFromCodeCoverage]
         public DoctorBL(IRepository<int, Doctor> doctorRepository)
         {
             _doctorRepository = doctorRepository;
@@ -57,7 +58,14 @@ namespace DoctorClinicBLLibrary
                         result.Add(doctor);
                     }
                 }
-                return result;
+                if(result.Count > 0)
+                {
+                    return result;
+                }
+                else
+                {
+                    throw new DoctorNotFoundException();
+                }
             }
             throw new NoDataAvailableException();
         }

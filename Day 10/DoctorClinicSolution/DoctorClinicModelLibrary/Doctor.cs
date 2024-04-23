@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
 
 namespace ModelClassLibrary
@@ -13,6 +14,7 @@ namespace ModelClassLibrary
         public int Age { get; set;}
         public string LicenseNumber { get; set; }
         public string PhoneNumber { get; set; }
+        [ExcludeFromCodeCoverage]
         public Doctor()
         {
             DoctorID = 0;
@@ -36,7 +38,7 @@ namespace ModelClassLibrary
             LicenseNumber = licenseNumber;
             PhoneNumber = phoneNumber;
         }
-
+        [ExcludeFromCodeCoverage]
         public override string ToString()
         {
             return "Doctor ID       : " + DoctorID
@@ -47,29 +49,27 @@ namespace ModelClassLibrary
                 + "\nAge            : " + Age;
         }
 
-        public static bool operator ==(Doctor a, Doctor b)
-        {
-            return a.DoctorID == b.DoctorID;
+      //  public static bool operator ==(Doctor a, Doctor b)
+        //{
+          //  return a.DoctorID == b.DoctorID;
 
-        }
-        public static bool operator !=(Doctor a, Doctor b)
-        {
-            return a.DoctorID != b.DoctorID;
-        }
+        //}
+        //public static bool operator !=(Doctor a, Doctor b)
+        //{
+         //   return a.DoctorID != b.DoctorID;
+        //}
 
-        public override bool Equals(object obj)
-        {
-            if (ReferenceEquals(this, obj))
-            {
-                return true;
-            }
+      //  public override bool Equals(object obj)
+       // {
+        //    if (ReferenceEquals(this, obj))
+        //    {
+       //         return true;
+      //      }
 
-            if (ReferenceEquals(obj, null))
-            {
-                return false;
-            }
-
-            throw new NotImplementedException();
-        }
+       //     if (ReferenceEquals(obj, null))
+       //     {
+         //       return false;
+        //    }
+       // }
     }
 }

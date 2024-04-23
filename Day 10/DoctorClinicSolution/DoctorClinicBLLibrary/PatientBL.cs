@@ -4,6 +4,7 @@ using ModeClassDALLibrary;
 using ModelClassLibrary;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Numerics;
 using System.Text;
@@ -14,7 +15,8 @@ namespace DoctorClinicBLLibrary
     public class PatientBL: IPatientServices
     {
         readonly IRepository<int, Patient> _patientRepository;
-        PatientBL(IRepository<int, Patient> repository)
+        [ExcludeFromCodeCoverage]
+        public PatientBL(IRepository<int, Patient> repository)
         {
             _patientRepository = repository;
         }

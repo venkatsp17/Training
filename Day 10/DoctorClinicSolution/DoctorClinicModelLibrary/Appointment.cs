@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +18,7 @@ namespace ModelClassLibrary
 
         public Doctor? Doctor { get; set; }
         public Patient? Patient { get; set; }
-
+        [ExcludeFromCodeCoverage]
         public Appointment()
         {
             AppointmentId = 0;
@@ -42,29 +43,5 @@ namespace ModelClassLibrary
             Patient = patient;
         }
 
-        public static bool operator ==(Appointment a, Appointment b)
-        {
-            return a.AppointmentId == b.AppointmentId;
-
-        }
-        public static bool operator !=(Appointment a, Appointment b)
-        {
-            return a.AppointmentId != b.AppointmentId;
-        }
-
-        public override bool Equals(object obj)
-        {
-            if (ReferenceEquals(this, obj))
-            {
-                return true;
-            }
-
-            if (ReferenceEquals(obj, null))
-            {
-                return false;
-            }
-
-            throw new NotImplementedException();
-        }
     }
 }

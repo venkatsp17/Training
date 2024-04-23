@@ -10,6 +10,11 @@ namespace ModeClassDALLibrary
     public class PatientRepository: IRepository<int, Patient>
     {
         readonly Dictionary<int, Patient> _patients;
+
+        public PatientRepository()
+        {
+            _patients = new Dictionary<int, Patient>();
+        }
         int GenerateId()
         {
             if (_patients.Count == 0)
@@ -17,7 +22,7 @@ namespace ModeClassDALLibrary
             int id = _patients.Keys.Max();
             return ++id;
         }
-        public Patient? Add(Patient item)
+        public Patient Add(Patient item)
         {
             if (_patients.ContainsValue(item))
             {
@@ -28,7 +33,7 @@ namespace ModeClassDALLibrary
             return item;
         }
 
-        public Patient? Delete(int key)
+        public Patient Delete(int key)
         {
             if (_patients.ContainsKey(key))
             {
@@ -39,19 +44,19 @@ namespace ModeClassDALLibrary
             return null;
         }
 
-        public Patient? Get(int key)
+        public Patient Get(int key)
         {
             return _patients.ContainsKey(key) ? _patients[key] : null;
         }
 
-        public List<Patient>? GetAll()
+        public List<Patient> GetAll()
         {
             if (_patients.Count == 0)
                 return null;
             return _patients.Values.ToList();
         }
 
-        public Patient? Update(Patient item)
+        public Patient Update(Patient item)
         {
             if (_patients.ContainsKey(item.PatientId))
             {

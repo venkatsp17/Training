@@ -72,7 +72,14 @@ namespace DoctorClinicBLLibrary
                         result.Add(appointment);
                     }
                 }
-                return result;
+                if(result.Count > 0)
+                {
+                    return result;
+                }
+                else
+                {
+                    throw new AppointmentNotFoundException();
+                }
             }
             throw new NoDataAvailableException();
         }
@@ -90,7 +97,14 @@ namespace DoctorClinicBLLibrary
                         result.Add(appointment);
                     }
                 }
-                return result;
+                if (result.Count > 0)
+                {
+                    return result;
+                }
+                else
+                {
+                    throw new AppointmentNotFoundException();
+                }
             }
             throw new NoDataAvailableException();
         }
@@ -108,28 +122,17 @@ namespace DoctorClinicBLLibrary
                         result.Add(appointment);
                     }
                 }
-                return result;
+                if (result.Count > 0)
+                {
+                    return result;
+                }
+                else
+                {
+                    throw new AppointmentNotFoundException();
+                }
             }
             throw new NoDataAvailableException();
         }
-
-        public List<Patient> GetPatientsForDoctors(int DoctorID)
-        {
-        List<Appointment> appointments = _appointmentRepository.GetAll();
-        List<Patient> result = new List<Patient>();
-        if (appointments != null)
-        {
-            foreach (var appointment in appointments)
-            {
-                if (appointment.Doctor.DoctorID == DoctorID)
-                {
-                    result.Add(appointment.Patient);
-                }
-            }
-            return result;
-        }
-        throw new NoDataAvailableException();
-    }
 
         public Appointment RescheduleAppointment(int AppointmentID, DateTime newDateTime)
         {
@@ -137,6 +140,7 @@ namespace DoctorClinicBLLibrary
             if (appointment != null)
             {
                 appointment.AppointmentDateTime = newDateTime;
+                return _appointmentRepository.Update(appointment);
             }
             throw new AppointmentNotFoundException();
     }
@@ -152,6 +156,7 @@ namespace DoctorClinicBLLibrary
             if (appointment != null)
             {
                 appointment.Status = status;
+                return _appointmentRepository.Update(appointment);
             }
             throw new AppointmentNotFoundException();
         }

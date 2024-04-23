@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,7 @@ namespace ModelClassLibrary
         public string Address { get; set; } 
         public string PhoneNumber { get; set; }
 
+        [ExcludeFromCodeCoverage]
         public Patient()
         {
             PatientId = 0;
@@ -49,7 +51,7 @@ namespace ModelClassLibrary
             Address = address;
             PhoneNumber = phoneNumber;
         }
-
+        [ExcludeFromCodeCoverage]
         public override string ToString()
         {
             return "Patient ID       : " + PatientId
@@ -60,29 +62,29 @@ namespace ModelClassLibrary
                 + "\nPhone           : " + PhoneNumber;
         }
 
-        public static bool operator ==(Patient a, Patient b)
-        {
-            return a.PatientId == b.PatientId;
+       // public static bool operator ==(Patient a, Patient b)
+        //{
+          //  return a.PatientId == b.PatientId;
 
-        }
-        public static bool operator !=(Patient a, Patient b)
-        {
-            return a.PatientId != b.PatientId;
-        }
+        //}
+        //public static bool operator !=(Patient a, Patient b)
+        //{
+          //  return a.PatientId != b.PatientId;
+        //}
 
-        public override bool Equals(object obj)
-        {
-            if (ReferenceEquals(this, obj))
-            {
-                return true;
-            }
+        //public override bool Equals(object obj)
+        //{
+          //  if (ReferenceEquals(this, obj))
+            //{
+              //  return true;
+            //}
 
-            if (ReferenceEquals(obj, null))
-            {
-                return false;
-            }
+            //if (ReferenceEquals(obj, null))
+            //{
+              //  return false;
+            //}
 
-            throw new NotImplementedException();
-        }
+            //throw new NotImplementedException();
+        //}
     }
 }

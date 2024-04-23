@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DoctorClinicBLLibrary
 {
-    internal interface IAppointmentServices
+    public interface IAppointmentServices
     {
         /// <summary>
         /// Function to schedule Appointment
@@ -64,12 +64,6 @@ namespace DoctorClinicBLLibrary
         /// <param name="date">date as (DateTime)</param>
         /// <returns></returns>
         bool CheckAvailability(int DoctorID, DateTime date);
-        /// <summary>
-        /// Function to get Patients for particular Doctor
-        /// </summary>
-        /// <param name="DoctorID">DocterID as (int)</param>
-        /// <returns></returns>
-        List<Patient> GetPatientsForDoctors(int DoctorID);
 
     }
 }
