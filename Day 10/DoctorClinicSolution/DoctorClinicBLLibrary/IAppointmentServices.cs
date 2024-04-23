@@ -26,7 +26,7 @@ namespace DoctorClinicBLLibrary
         /// </summary>
         /// <param name="AppointmentID">AppointmentID as (int)</param>
         /// <returns></returns>
-        Appointment RescheduleAppointment(int AppointmentID);
+        Appointment RescheduleAppointment(int AppointmentID, DateTime newDateTime);
         /// <summary>
         /// Get particular Appointment By Id
         /// </summary>
@@ -38,7 +38,7 @@ namespace DoctorClinicBLLibrary
         /// </summary>
         /// <param name="AppointmentID">AppointmentID as (int)</param>
         /// <returns></returns>
-        Appointment UpdateAppointmentStatus(int AppointmentID);
+        Appointment UpdateAppointmentStatus(int AppointmentID, string status);
         /// <summary>
         /// Function to get all Apointment by particular status
         /// </summary>
@@ -57,6 +57,19 @@ namespace DoctorClinicBLLibrary
         /// <param name="DoctorID">DoctorID as (int)</param>
         /// <returns></returns>
         List<Appointment> GetAppointmentsForDoctor(int DoctorID);
+        /// <summary>
+        /// Function to check Availability of particular Doctor at required Date and Time
+        /// </summary>
+        /// <param name="DoctorID">DoctorID as (int)</param>
+        /// <param name="date">date as (DateTime)</param>
+        /// <returns></returns>
+        bool CheckAvailability(int DoctorID, DateTime date);
+        /// <summary>
+        /// Function to get Patients for particular Doctor
+        /// </summary>
+        /// <param name="DoctorID">DocterID as (int)</param>
+        /// <returns></returns>
+        List<Patient> GetPatientsForDoctors(int DoctorID);
 
     }
 }

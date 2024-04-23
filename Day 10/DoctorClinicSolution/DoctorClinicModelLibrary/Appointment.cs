@@ -21,7 +21,7 @@ namespace ModelClassLibrary
         public Appointment()
         {
             AppointmentId = 0;
-            AppointmentDateTime = DateTime.Now;
+            AppointmentDateTime = DateTime.MinValue;
             Duration = TimeSpan.MinValue;
             Reason = "";
             Status = "";

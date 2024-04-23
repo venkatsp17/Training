@@ -27,12 +27,7 @@ namespace DoctorClinicBLLibrary
         /// <param name="patient">patient as (object of patient)</param>
         /// <returns></returns>
         Patient UpdatePatient(Patient patient);
-        /// <summary>
-        /// Function to get Patients for particular Doctor
-        /// </summary>
-        /// <param name="DoctorID">DocterID as (int)</param>
-        /// <returns></returns>
-        List<Patient> GetPatientsForDoctors(int DoctorID);
 
+        Patient DeletePatient(int PatientID);
     }
 }

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DoctorClinicBLLibrary/1.0.0": {
+        "dependencies": {
+          "DoctorClinicDALLibrary": "1.0.0",
+          "DoctorClinicLibrary": "1.0.0"
+        },
+        "runtime": {
+          "DoctorClinicBLLibrary.dll": {}
+        }
+      },
+      "DoctorClinicDALLibrary/1.0.0": {
+        "dependencies": {
+          "DoctorClinicLibrary": "1.0.0"
+        },
+        "runtime": {
+          "DoctorClinicDALLibrary.dll": {}
+        }
+      },
+      "DoctorClinicLibrary/1.0.0": {
+        "runtime": {
+          "DoctorClinicLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DoctorClinicBLLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DoctorClinicDALLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DoctorClinicLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

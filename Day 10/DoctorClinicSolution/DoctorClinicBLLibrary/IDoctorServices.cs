@@ -34,11 +34,10 @@ namespace DoctorClinicBLLibrary
         /// <returns></returns>
         Doctor UpdateDoctorDetails(Doctor doctor);
         /// <summary>
-        /// Function to check Availability of particular Doctor at required Date and Time
+        /// Function to delete Doctor data
         /// </summary>
-        /// <param name="DoctorID">DoctorID as (int)</param>
-        /// <param name="date">date as (DateTime)</param>
+        /// <param name="doctor">doctor as (object of Doctor)</param>
         /// <returns></returns>
-        bool CheckAvailability(int DoctorID, DateTime date);
+        Doctor DeleteDoctor(int DoctorID);
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj": {}
+    "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj": {
+    "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj",
         "projectName": "DoctorClinicBLLibrary",
-        "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj",
+        "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj",
         "packagesPath": "C:\\Users\\vc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicBLLibrary\\obj\\",
+        "outputPath": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicBLLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj": {
-                "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj"
+              "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj": {
+                "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj"
+              },
+              "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj": {
+                "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj"
               }
             }
           }
@@ -72,14 +75,82 @@
         }
       }
     },
-    "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj": {
+    "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj",
-        "projectName": "DoctorClinicLibrary",
-        "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj",
+        "projectName": "DoctorClinicDALLibrary",
+        "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj",
         "packagesPath": "C:\\Users\\vc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vc\\Desktop\\Training\\Day 7\\DoctorClinicSolution\\DoctorClinicModelLibrary\\obj\\",
+        "outputPath": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicDALLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj": {
+                "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj",
+        "projectName": "DoctorClinicLibrary",
+        "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicModelLibrary\\DoctorClinicLibrary.csproj",
+        "packagesPath": "C:\\Users\\vc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vc\\Desktop\\Training\\Day 10\\DoctorClinicSolution\\DoctorClinicModelLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -10,3 +10,15 @@ C:\Users\vc\Desktop\Training\Day 7\DoctorClinicSolution\DoctorClinicModelLibrary
 C:\Users\vc\Desktop\Training\Day 7\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\refint\DoctorClinicLibrary.dll
 C:\Users\vc\Desktop\Training\Day 7\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\DoctorClinicLibrary.pdb
 C:\Users\vc\Desktop\Training\Day 7\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\ref\DoctorClinicLibrary.dll
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\bin\Debug\net6.0\DoctorClinicLibrary.deps.json
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\bin\Debug\net6.0\DoctorClinicLibrary.dll
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\bin\Debug\net6.0\DoctorClinicLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\DoctorClinicLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\DoctorClinicLibrary.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\DoctorClinicLibrary.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\DoctorClinicLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\DoctorClinicLibrary.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\DoctorClinicLibrary.dll
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\refint\DoctorClinicLibrary.dll
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\DoctorClinicLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 10\DoctorClinicSolution\DoctorClinicModelLibrary\obj\Debug\net6.0\ref\DoctorClinicLibrary.dll
