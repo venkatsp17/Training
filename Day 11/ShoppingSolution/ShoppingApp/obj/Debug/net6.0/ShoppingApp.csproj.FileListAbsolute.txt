@@ -1,0 +1,15 @@
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.exe
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.deps.json
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.runtimeconfig.json
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.dll
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.pdb
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.dll
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\refint\ShoppingApp.dll
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.pdb
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.genruntimeconfig.cache
+C:\Users\vc\Desktop\Training\Day 11\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ref\ShoppingApp.dll
