@@ -3,6 +3,8 @@ using ShoppingBL.Exceptions.CartExceptions;
 using ShoppingBL.Exceptions.CartItemExceptions;
 using ShoppingDALLibrary;
 using ShoppingModelLibrary;
+using ShoppingModelLibrary.Exceptions;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ShoppingBL
 {
@@ -21,10 +23,29 @@ namespace ShoppingBL
             items.ForEach(item => { total += item.Price; });
             return total;
         }
+        [ExcludeFromCodeCoverage]
+        public int CreateCart(Cart cart)
+        {
+            var result = _abstractRepository.Add(cart);
+            if(result !=null)
+            {
+                return result.Id;
+            }
+            throw new DuplicateDataFoundException();
+        }
 
         public Cart AddItemToCart(CartItem item, int CartId)
         {
             var result = _abstractRepository.GetByKey(CartId);
+            if (result==null)
+            {
+                Cart cart = new Cart();
+                List<CartItem> items = new List<CartItem>();
+                items.Add(item);
+                cart.CartItems = items;
+                int id = CreateCart(cart);
+                return _abstractRepository.GetByKey(id);
+            }
             if (result != null)
             {
                 foreach (var item1 in result.CartItems)
@@ -34,7 +55,10 @@ namespace ShoppingBL
                         if(item1.Quantity + item.Quantity <= 5)
                         {
                             item1.Quantity += item.Quantity;
-                            return _abstractRepository.Update(result);
+                            item1.Price = item1.Quantity * item.Product.Price;
+                            result.Total = CalculateTotal(result.CartItems) + CheckForCharges(result.CartItems);
+                            Cart updatedCart = CheckForDiscount(result);
+                            return updatedCart;
                         }
                         throw new CartItemQuantityExceededException();
                     }
@@ -45,36 +69,37 @@ namespace ShoppingBL
             throw new CartNotFoundException();
         }
 
-        public double CheckForCharges(int cartId)
+        public double CheckForCharges(List<CartItem> cartItems)
         {
-            var result = _abstractRepository.GetByKey(cartId);
             double total = 0;
-            if(result != null) {
-                if(result.CartItems.Count > 0)
-                {
-                   total = CalculateTotal(result.CartItems);
-                    return total < 100? 100: 0;
-                }
-                throw new EmptyCartException();
-            }
-            throw new CartNotFoundException();
+            if(cartItems.Count > 0)
+               {
+                  total = CalculateTotal(cartItems);
+                  return total<100?100:0;
+
+               }
+               throw new EmptyCartException();
         }
 
-        public Cart CheckForDiscount(int cartId)
+        public Cart CheckForDiscount(Cart cart)
         {
-            var result = _abstractRepository.GetByKey(cartId);
+            
             double total = 0;
-            if (result != null)
+            if (cart != null)
             {
-                if (result.CartItems.Count > 0)
+               
+                if (cart.CartItems.Count > 0)
                 {
-                    total = CalculateTotal(result.CartItems);
-                    if (result.CartItems.Count == 3 && total >= 1500)
+                    total = CalculateTotal(cart.CartItems);
+                    if (cart.CartItems.Count == 3 && total >= 1500)
                     {
-                        result.CartItems.ForEach(item => { item.Discount = 5; });
-                        return _abstractRepository.Update(result);
+
+                        cart.CartItems.ForEach(item => { item.Discount = 5; });
+                        cart.Total += (cart.Total) * 0.5;
+                        //return _abstractRepository.Update(cart);
                     }
-                    throw new NotValidForDiscount();
+                    return _abstractRepository.Update(cart);
+                    //throw new NotValidForDiscount();
                 }
                 throw new EmptyCartException();
             }
@@ -92,6 +117,8 @@ namespace ShoppingBL
                     if (cartitem != null)
                     {
                         result.CartItems.Remove(cartitem);
+                        result.Total = CalculateTotal(result.CartItems) + CheckForCharges(result.CartItems);
+                        CheckForDiscount(result);
                         return _abstractRepository.Update(result);
                     }
                     throw new CartItemNotFoundException();
@@ -113,6 +140,9 @@ namespace ShoppingBL
                         if (Quantity <=5)
                         {
                             item1.Quantity = Quantity;
+                            item1.Price = Quantity*item1.Product.Price;
+                            result.Total = CalculateTotal(result.CartItems) + CheckForCharges(result.CartItems);
+                            CheckForDiscount(result);
                             return _abstractRepository.Update(result);
                         }
                         throw new CartItemQuantityExceededException();

@@ -38,7 +38,7 @@ namespace ShoppingBLTest.CartBLTest
             _cartRepository.Add(cart);
             _cartServices = new CartBL(_cartRepository);
             //Action
-            var result = _cartServices.CheckForCharges(1);
+            var result = _cartServices.CheckForCharges(cartItems);
             //Assert
             Assert.That(result, Is.EqualTo(0));
         }
@@ -47,24 +47,13 @@ namespace ShoppingBLTest.CartBLTest
         public void CheckForChargesEmptyCartExceptionTest()
         {
             //Arrange
-            Cart cart = new Cart() { Customer = new Customer(), CustomerId = 1, CartItems = new List<CartItem>() };
-            _cartRepository.Add(cart);
+            List<CartItem> cartItems = new List<CartItem>();
+               
             _cartServices = new CartBL(_cartRepository);
             //Action
-            var exception = Assert.Throws<EmptyCartException>(() => _cartServices.CheckForCharges(1));
+            var exception = Assert.Throws<EmptyCartException>(() => _cartServices.CheckForCharges(cartItems));
             //Assert
             Assert.That(exception.Message, Is.EqualTo("Cart is Empty"));
-        }
-
-        [Test]
-        public void CheckForChargesNoCartFoundExceptionTest()
-        {
-            //Arrange
-            _cartServices = new CartBL(_cartRepository);
-            //Action
-            var exception = Assert.Throws<NoCartWithGiveIdException>(() => _cartServices.CheckForCharges(1));
-            //Assert
-            Assert.That(exception.Message, Is.EqualTo("Cart with the given Id is not present"));
         }
     }
 }

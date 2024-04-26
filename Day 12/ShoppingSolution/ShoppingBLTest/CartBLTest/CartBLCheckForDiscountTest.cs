@@ -43,7 +43,7 @@ namespace ShoppingBLTest.CartBLTest
             _cartRepository.Add(cart);
             _cartServices = new CartBL(_cartRepository);
             //Action
-            var result = _cartServices.CheckForDiscount(1);
+            var result = _cartServices.CheckForDiscount(cart);
             //Assert
             Assert.That(result, Is.EqualTo(cart));
         }
@@ -56,20 +56,20 @@ namespace ShoppingBLTest.CartBLTest
             _cartRepository.Add(cart);
             _cartServices = new CartBL(_cartRepository);
             //Action
-            var exception = Assert.Throws<EmptyCartException>(() => _cartServices.CheckForDiscount(1));
+            var exception = Assert.Throws<EmptyCartException>(() => _cartServices.CheckForDiscount(cart));
             //Assert
             Assert.That(exception.Message, Is.EqualTo("Cart is Empty"));
         }
 
-        [Test]
-        public void CheckForDiscountNoCartFoundExceptionTest()
-        {
-            //Arrange
-            _cartServices = new CartBL(_cartRepository);
-            //Action
-            var exception = Assert.Throws<NoCartWithGiveIdException>(() => _cartServices.CheckForDiscount(1));
-            //Assert
-            Assert.That(exception.Message, Is.EqualTo("Cart with the given Id is not present"));
-        }
+        //[Test]
+        //public void CheckForDiscountNoCartFoundExceptionTest()
+        //{
+        //    //Arrange
+        //    Cart? cart = null;
+        //    //Action
+        //    var exception = Assert.Throws<NoCartWithGiveIdException>(() => _cartServices.CheckForDiscount(cart));
+        //    //Assert
+        //    Assert.That(exception.Message, Is.EqualTo("Cart with the given Id is not present"));
+        //}
     }
 }

@@ -11,11 +11,13 @@ namespace ShoppingBL
     {
         Cart AddItemToCart(CartItem item, int CartId);
 
+        int CreateCart(Cart cart);
+
         Cart RemoveItemFromCart(int ProductId, int CartId);
 
-        double CheckForCharges(int cartId);
+        double CheckForCharges(List<CartItem> cartItems);
 
-        Cart CheckForDiscount(int cartId);
+        Cart CheckForDiscount(Cart cart);
 
         Cart UpdateCartItemQuantity(int ProductId, int CartId, int Quantity);
     }

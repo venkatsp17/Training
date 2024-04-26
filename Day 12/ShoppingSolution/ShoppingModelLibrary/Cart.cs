@@ -12,7 +12,7 @@ namespace ShoppingModelLibrary
         public int Id { get; set; }
         public int CustomerId { get; set; }
         public Customer Customer { get; set; }//Navigation property
-
+        public double Total { get; set; } = 0;
         public List<CartItem> CartItems { get; set; }//Navigation property.
 
         public override string ToString()
@@ -21,6 +21,7 @@ namespace ShoppingModelLibrary
             "\nCart ID            : " + Id +
             "\nCustomer ID          : " + CustomerId +
             "\nCustomer Name             : " + Customer.Name +
+            "\nTotal                     : " + Total +
             "\nCart Items:";
             foreach (var item in CartItems)
             {
