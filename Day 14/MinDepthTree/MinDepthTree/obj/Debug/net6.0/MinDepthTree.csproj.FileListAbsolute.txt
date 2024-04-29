@@ -1,0 +1,15 @@
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\bin\Debug\net6.0\MinDepthTree.exe
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\bin\Debug\net6.0\MinDepthTree.deps.json
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\bin\Debug\net6.0\MinDepthTree.runtimeconfig.json
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\bin\Debug\net6.0\MinDepthTree.dll
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\bin\Debug\net6.0\MinDepthTree.pdb
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\obj\Debug\net6.0\MinDepthTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\obj\Debug\net6.0\MinDepthTree.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\obj\Debug\net6.0\MinDepthTree.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\obj\Debug\net6.0\MinDepthTree.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\obj\Debug\net6.0\MinDepthTree.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\obj\Debug\net6.0\MinDepthTree.dll
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\obj\Debug\net6.0\refint\MinDepthTree.dll
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\obj\Debug\net6.0\MinDepthTree.pdb
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\obj\Debug\net6.0\MinDepthTree.genruntimeconfig.cache
+C:\Users\vc\Desktop\Training\Day 14\MinDepthTree\MinDepthTree\obj\Debug\net6.0\ref\MinDepthTree.dll
