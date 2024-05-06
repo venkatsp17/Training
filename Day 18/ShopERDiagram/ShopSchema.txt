@@ -1,0 +1,9 @@
+Customer - Id (PK), Name, Phone
+Supplier - Id (PK), Name, Contact, Address, ProductID (FK)
+SupplierStock - SupplierStockID (PK), SupplierID (FK), StockID(FK)
+Bill - BillNo (PK), Date, Amount, Discount, ProductID (FK), CustomerID (FK)
+BillItems - BillNo (FK), BillItemID (PK), ProductID (FK), Quantity, UnitPrice
+Product - ProductID (PK), Name, Price, StockID (FK), Description
+Stock - StockID (PK), QualityinHand, LastUpdated, SupplierId (FK)
+
+
