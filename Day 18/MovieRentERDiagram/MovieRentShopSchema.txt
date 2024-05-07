@@ -1,6 +1,6 @@
 Member - PhoneNumber (PK), Name
 Category - CategoryID, Name
-Movie - MovieNo, Format, Title
-Dependant - Name
+Movie - MovieNo, Format, Title, CategoryID
+Dependant - Name, MemberID
 Golden Member - Inherits Member
 Silver Member - Inherits Member
