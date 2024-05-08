@@ -1,0 +1,16 @@
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\bin\Debug\net6.0\DoctorClinicBLLibrary.deps.json
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\bin\Debug\net6.0\DoctorClinicBLLibrary.dll
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\bin\Debug\net6.0\DoctorClinicBLLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\bin\Debug\net6.0\DoctorClinicLibrary.dll
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\bin\Debug\net6.0\DoctorClinicLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\DoctorClinicBLLibrary.csproj.AssemblyReference.cache
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\DoctorClinicBLLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\DoctorClinicBLLibrary.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\DoctorClinicBLLibrary.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\DoctorClinicBLLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\DoctorClinicBLLibrary.sourcelink.json
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\DoctorCl.268D41D1.Up2Date
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\DoctorClinicBLLibrary.dll
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\refint\DoctorClinicBLLibrary.dll
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\DoctorClinicBLLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicBLLibrary\obj\Debug\net6.0\ref\DoctorClinicBLLibrary.dll
