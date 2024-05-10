@@ -20,20 +20,20 @@ namespace DoctorClinicBLLibrary
             _appointmentRepository = appointmentRepository;
         }
 
-        public Appointment CancelAppointment(int AppointmentID)
+        public async Task<Appointment> CancelAppointment(int AppointmentID)
         {
-            Appointment appointment = _appointmentRepository.Get(AppointmentID);
+            Appointment appointment = await _appointmentRepository.Get(AppointmentID);
             if (appointment != null)
             {
                 appointment.Status = "Canceled";
-                return _appointmentRepository.Update(appointment);
+                return await _appointmentRepository.Update(appointment);
             }
             throw new AppointmentNotFoundException();
         }
 
-        public bool CheckAvailability(int DoctorID, DateTime date)
+        public async Task<bool> CheckAvailability(int DoctorID, DateTime date)
         {
-            List<Appointment> appointments = _appointmentRepository.GetAll();
+            IList<Appointment> appointments = await _appointmentRepository.GetAll();
             bool available = true;
             if (appointments != null)
             {
@@ -49,9 +49,9 @@ namespace DoctorClinicBLLibrary
             throw new NoDataAvailableException();
         }
 
-        public Appointment GetAppointmentById(int AppointmentID)
+        public async Task<Appointment> GetAppointmentById(int AppointmentID)
         {
-            Appointment appointment = _appointmentRepository.Get(AppointmentID);
+            Appointment appointment = await _appointmentRepository.Get(AppointmentID);
             if (appointment != null)
             {
                 return appointment;
@@ -59,10 +59,10 @@ namespace DoctorClinicBLLibrary
             throw new AppointmentNotFoundException();
         }
 
-        public List<Appointment> GetAppointmentsByStatus(string status)
+        public async Task<IList<Appointment>> GetAppointmentsByStatus(string status)
         {
-            List<Appointment> appointments = _appointmentRepository.GetAll();
-            List<Appointment> result = new List<Appointment>();
+            IList<Appointment> appointments = await _appointmentRepository.GetAll();
+            IList<Appointment> result = new List<Appointment>();
             if (appointments != null)
             {
                 foreach (var appointment in appointments)
@@ -84,10 +84,10 @@ namespace DoctorClinicBLLibrary
             throw new NoDataAvailableException();
         }
 
-        public List<Appointment> GetAppointmentsForDoctor(int DoctorID)
+        public async Task<IList<Appointment>> GetAppointmentsForDoctor(int DoctorID)
         {
-            List<Appointment> appointments = _appointmentRepository.GetAll();
-            List<Appointment> result = new List<Appointment>();
+            IList<Appointment> appointments = await _appointmentRepository.GetAll();
+            IList<Appointment> result = new List<Appointment>();
             if (appointments != null)
             {
                 foreach (var appointment in appointments)
@@ -109,10 +109,10 @@ namespace DoctorClinicBLLibrary
             throw new NoDataAvailableException();
         }
 
-        public List<Appointment> GetAppointmentsForPatient(int PatientID)
+        public async Task<IList<Appointment>> GetAppointmentsForPatient(int PatientID)
         {
-            List<Appointment> appointments = _appointmentRepository.GetAll();
-            List<Appointment> result = new List<Appointment>();
+            IList<Appointment> appointments = await _appointmentRepository.GetAll();
+            IList<Appointment> result = new List<Appointment>();
             if (appointments != null)
             {
                 foreach (var appointment in appointments)
@@ -134,29 +134,29 @@ namespace DoctorClinicBLLibrary
             throw new NoDataAvailableException();
         }
 
-        public Appointment RescheduleAppointment(int AppointmentID, DateTime newDateTime)
+        public async Task<Appointment> RescheduleAppointment(int AppointmentID, DateTime newDateTime)
         {
-            Appointment appointment = _appointmentRepository.Get(AppointmentID);
+            Appointment appointment = await _appointmentRepository.Get(AppointmentID);
             if (appointment != null)
             {
                 appointment.AppointmentDateTime = newDateTime;
-                return _appointmentRepository.Update(appointment);
+                return await _appointmentRepository.Update(appointment);
             }
             throw new AppointmentNotFoundException();
     }
         [ExcludeFromCodeCoverage]
-        public int ScheduleAppointment(Appointment appointment)
+        public Task<int> ScheduleAppointment(Appointment appointment)
         {
             throw new NotImplementedException();
         }
        
-        public Appointment UpdateAppointmentStatus(int AppointmentID, string status)
+        public async Task<Appointment> UpdateAppointmentStatus(int AppointmentID, string status)
         {
-            Appointment appointment = _appointmentRepository.Get(AppointmentID);
+            Appointment appointment = await _appointmentRepository.Get(AppointmentID);
             if (appointment != null)
             {
                 appointment.Status = status;
-                return _appointmentRepository.Update(appointment);
+                return await _appointmentRepository.Update(appointment);
             }
             throw new AppointmentNotFoundException();
         }

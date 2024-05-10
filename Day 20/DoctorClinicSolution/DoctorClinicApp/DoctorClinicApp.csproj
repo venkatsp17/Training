@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DoctorClinicBLLibrary\DoctorClinicBLLibrary.csproj" />
+    <ProjectReference Include="..\DoctorClinicDALLibrary\DoctorClinicDALLibrary.csproj" />
   </ItemGroup>
 
 </Project>

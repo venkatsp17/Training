@@ -2060,6 +2060,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "DoctorClinicBLLibrary >= 1.0.0",
+      "DoctorClinicDALLibrary >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.29",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.29",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.29"
@@ -2099,6 +2100,9 @@
           "projectReferences": {
             "C:\\Users\\vc\\Desktop\\Training\\Day 20\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj": {
               "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 20\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj"
+            },
+            "C:\\Users\\vc\\Desktop\\Training\\Day 20\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj": {
+              "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 20\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj"
             }
           }
         }

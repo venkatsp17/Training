@@ -15,9 +15,9 @@ namespace DoctorClinicBLLibrary
             _doctorRepository = doctorRepository;
         }
 
-        public int AddDoctor(Doctor doctor)
+        public async Task<int> AddDoctor(Doctor doctor)
         {
-            var result = _doctorRepository.Add(doctor);
+            var result = await _doctorRepository.Add(doctor);
             if(result != null)
             {
                 return result.DoctorId;
@@ -26,19 +26,19 @@ namespace DoctorClinicBLLibrary
             throw new DuplicateDoctorException();
         }
 
-        public Doctor DeleteDoctor(int DoctorID)
+        public async Task<Doctor> DeleteDoctor(int DoctorID)
         {
-            Doctor doctor = _doctorRepository.Get(DoctorID);
+            Doctor doctor = await _doctorRepository.Get(DoctorID);
             if (doctor != null)
             {
-                return _doctorRepository.Delete(DoctorID);
+                return await _doctorRepository.Delete(DoctorID);
             }
             throw new DoctorNotFoundException();
         }
 
-        public Doctor GetDoctorById(int DoctorID)
+        public async Task<Doctor> GetDoctorById(int DoctorID)
         {
-            Doctor doctor = _doctorRepository.Get(DoctorID);
+            Doctor doctor = await _doctorRepository.Get(DoctorID);
             if (doctor != null)
             {
                 return doctor;
@@ -46,10 +46,10 @@ namespace DoctorClinicBLLibrary
             throw new DoctorNotFoundException();
         }
 
-        public List<Doctor> GetDoctorsBySpecialization(string specialization)
+        public async Task<IList<Doctor>> GetDoctorsBySpecialization(string specialization)
         {
-            List<Doctor> doctors = _doctorRepository.GetAll();
-            List<Doctor> result = new List<Doctor>();
+            IList<Doctor> doctors = await _doctorRepository.GetAll();
+            IList<Doctor> result = new List<Doctor>();
             if(doctors!= null)
             {
                 foreach (var doctor in doctors)
@@ -71,12 +71,12 @@ namespace DoctorClinicBLLibrary
             throw new NoDataAvailableException();
         }
 
-        public Doctor UpdateDoctorDetails(Doctor doctor)
+        public async Task<Doctor> UpdateDoctorDetails(Doctor doctor)
         {
-            Doctor doctor1 = _doctorRepository.Get(doctor.DoctorId);
+            Doctor doctor1 = await _doctorRepository.Get(doctor.DoctorId);
             if (doctor1 != null)
             {
-                return _doctorRepository.Update(doctor1);
+                return await _doctorRepository.Update(doctor1);
             }
             throw new DoctorNotFoundException();
         }

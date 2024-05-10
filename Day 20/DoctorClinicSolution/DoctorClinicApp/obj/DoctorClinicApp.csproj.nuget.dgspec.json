@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Users\\vc\\Desktop\\Training\\Day 20\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj": {
                 "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 20\\DoctorClinicSolution\\DoctorClinicBLLibrary\\DoctorClinicBLLibrary.csproj"
+              },
+              "C:\\Users\\vc\\Desktop\\Training\\Day 20\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj": {
+                "projectPath": "C:\\Users\\vc\\Desktop\\Training\\Day 20\\DoctorClinicSolution\\DoctorClinicDALLibrary\\DoctorClinicDALLibrary.csproj"
               }
             }
           }

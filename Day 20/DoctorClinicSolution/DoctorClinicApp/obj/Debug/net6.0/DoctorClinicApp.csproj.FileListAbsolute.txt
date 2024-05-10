@@ -92,3 +92,5 @@ C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicApp\bin\Deb
 C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicApp\bin\Debug\net6.0\DoctorClinicLibrary.dll
 C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicApp\bin\Debug\net6.0\DoctorClinicDALLibrary.pdb
 C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicApp\bin\Debug\net6.0\DoctorClinicLibrary.pdb
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicApp\bin\Debug\net6.0\DoctorClinicBLLibrary.dll
+C:\Users\vc\Desktop\Training\Day 20\DoctorClinicSolution\DoctorClinicApp\bin\Debug\net6.0\DoctorClinicBLLibrary.pdb

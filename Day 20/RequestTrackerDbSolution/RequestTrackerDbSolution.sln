@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestTrackerDbApp", "RequestTrackerDbApp\RequestTrackerDbApp.csproj", "{20A774DF-B1ED-4BCB-B2D7-91DD8B896399}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20A774DF-B1ED-4BCB-B2D7-91DD8B896399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A774DF-B1ED-4BCB-B2D7-91DD8B896399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A774DF-B1ED-4BCB-B2D7-91DD8B896399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A774DF-B1ED-4BCB-B2D7-91DD8B896399}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7309F35B-CF3D-479F-B40A-7666DABA99B1}
+	EndGlobalSection
+EndGlobal

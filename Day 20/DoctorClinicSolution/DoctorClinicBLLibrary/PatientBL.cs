@@ -21,9 +21,9 @@ namespace DoctorClinicBLLibrary
             _patientRepository = repository;
         }
 
-        public int AddPatient(Patient patient)
+        public async Task<int> AddPatient(Patient patient)
         {
-            var result = _patientRepository.Add(patient);
+            var result = await _patientRepository.Add(patient);
             if (result != null)
             {
                 return result.PatientId;
@@ -32,19 +32,19 @@ namespace DoctorClinicBLLibrary
             throw new DuplicatePatientException();
         }
 
-        public Patient DeletePatient(int PatientID)
+        public async Task<Patient> DeletePatient(int PatientID)
         {
-            Patient patient = _patientRepository.Get(PatientID);
+            Patient patient = await _patientRepository.Get(PatientID);
             if (patient != null)
             {
-                return _patientRepository.Delete(PatientID);
+                return await _patientRepository.Delete(PatientID);
             }
             throw new PatientNotFoundException();
         }
 
-        public Patient GetPatientById(int PatientID)
+        public async Task<Patient> GetPatientById(int PatientID)
         {
-            Patient patient = _patientRepository.Get(PatientID);
+            Patient patient = await _patientRepository.Get(PatientID);
             if (patient != null)
             {
                 return patient;
@@ -52,12 +52,12 @@ namespace DoctorClinicBLLibrary
             throw new PatientNotFoundException();
         }
 
-        public Patient UpdatePatient(Patient patient)
+        public async Task<Patient> UpdatePatient(Patient patient)
         {
-            Patient patient1 = _patientRepository.Get(patient.PatientId);
+            Patient patient1 = await _patientRepository.Get(patient.PatientId);
             if (patient1 != null)
             {
-                return _patientRepository.Update(patient1);
+                return await _patientRepository.Update(patient1);
             }
             throw new PatientNotFoundException();
         }

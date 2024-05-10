@@ -8,10 +8,10 @@ namespace ModeClassDALLibrary
 {
     public interface IRepository<K, T> where T : class
     {
-        T Get(K key);
-        List<T> GetAll();
-        T Add(T item);
-        T Update(T item);
-        T Delete(K key);
+        Task<T> Get(K key);
+        Task<IList<T>> GetAll();
+        Task<T> Add(T item);
+        Task<T> Update(T item);
+        Task<T> Delete(K key);
     }
 }

@@ -15,20 +15,20 @@ namespace DoctorClinicBLLibrary
         /// </summary>
         /// <param name="patient">patient as (object of patient)</param>
         /// <returns></returns>
-        int AddPatient(Patient patient);
+        Task<int> AddPatient(Patient patient);
         /// <summary>
         /// Function to get particular Patient by Id
         /// </summary>
         /// <param name="PatientID">PatientID as (int)</param>
         /// <returns></returns>
-        Patient GetPatientById(int PatientID);
+        Task<Patient> GetPatientById(int PatientID);
         /// <summary>
         /// Function to Update Patient Details
         /// </summary>
         /// <param name="patient">patient as (object of patient)</param>
         /// <returns></returns>
-        Patient UpdatePatient(Patient patient);
+        Task<Patient> UpdatePatient(Patient patient);
 
-        Patient DeletePatient(int PatientID);
+        Task<Patient> DeletePatient(int PatientID);
     }
 }

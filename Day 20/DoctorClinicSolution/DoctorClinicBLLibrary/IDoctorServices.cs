@@ -15,30 +15,30 @@ namespace DoctorClinicBLLibrary
         /// </summary>
         /// <param name="doctor">doctor as (object of Doctor)</param>
         /// <returns></returns>
-        int AddDoctor(Doctor doctor);
+        Task<int> AddDoctor(Doctor doctor);
         /// <summary>
         /// Function to get particular Doctor by ID
         /// </summary>
         /// <param name="DoctorID">DoctorID as (int)</param>
         /// <returns></returns>
-        Doctor GetDoctorById(int DoctorID);
+        Task<Doctor> GetDoctorById(int DoctorID);
         /// <summary>
         /// Function to get all Doctors of particular specialization
         /// </summary>
         /// <param name="specialization">specialization as (string)</param>
         /// <returns></returns>
-        List<Doctor> GetDoctorsBySpecialization(string specialization);
+        Task<IList<Doctor>> GetDoctorsBySpecialization(string specialization);
         /// <summary>
         /// Function to update Doctor Details
         /// </summary>
         /// <param name="doctor">doctor as (object of Doctor)</param>
         /// <returns></returns>
-        Doctor UpdateDoctorDetails(Doctor doctor);
+        Task<Doctor> UpdateDoctorDetails(Doctor doctor);
         /// <summary>
         /// Function to delete Doctor data
         /// </summary>
         /// <param name="doctor">doctor as (object of Doctor)</param>
         /// <returns></returns>
-        Doctor DeleteDoctor(int DoctorID);
+        Task<Doctor> DeleteDoctor(int DoctorID);
     }
 }
