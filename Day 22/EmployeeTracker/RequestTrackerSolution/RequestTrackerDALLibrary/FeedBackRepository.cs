@@ -13,7 +13,7 @@ namespace RequestTrackerDALLibrary
 
         protected readonly RequestTrackerContext _context;
 
-        FeedBackRepository(RequestTrackerContext context)
+        public FeedBackRepository(RequestTrackerContext context)
         {
            _context = context;
         }

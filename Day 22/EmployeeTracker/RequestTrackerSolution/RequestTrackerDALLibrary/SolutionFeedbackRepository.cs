@@ -8,13 +8,12 @@ using System.Threading.Tasks;
 
 namespace RequestTrackerDALLibrary
 {
-    public class SolutionFeedback: SolutionRepository
+    public class SolutionFeedbackRepository: SolutionRepository
     {
         protected readonly RequestTrackerContext _context;
 
-        public SolutionFeedback(RequestTrackerContext context) : base(context)
+        public SolutionFeedbackRepository(RequestTrackerContext context) : base(context)
         {
-            _context = context;
         }
 
         public async override Task<IList<RequestSolution>> GetAll()

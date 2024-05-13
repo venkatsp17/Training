@@ -11,8 +11,13 @@ namespace RequestTrackerBLLibrary
     {
         public Task<Request> RaiseRequest(Request request);
 
-        public Task<Request> ViewRequestStatus(int EmployeeID);
+        public Task<ICollection<Request>> ViewRequestStatus(int EmployeeID);
 
-        public Task<Request> CloseRequest(Request request, int closedBy, DateTime date);
+        public Task<Request> CloseRequest(int requestNumber, int Id);
+
+        public Task<IList<Request>> ViewRequestStatusAdmin();
+
+        public Task<Request> GetRequestById(int Id);
+
     }
 }

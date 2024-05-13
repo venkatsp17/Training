@@ -19,11 +19,6 @@ namespace RequestTrackerModelLibrary
         public DbSet<SolutionFeedback> Feedbacks { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Employee>().HasData(
-                new Employee { Id = 101, Name = "Ramu", Password = "ramu123", Role = "Admin" },
-                new Employee { Id = 102, Name = "Somu", Password = "somu123", Role = "Admin" },
-                new Employee { Id = 103, Name = "Bimu", Password = "bimu123", Role = "User" }
-                );
 
             modelBuilder.Entity<Request>().HasKey(r => r.RequestNumber);
             modelBuilder.Entity<SolutionFeedback>().HasKey(r => r.FeedbackId);
