@@ -20,15 +20,12 @@ namespace RequestTrackerBLLibrary
 
         public async Task<Employee> GetEmployeeByID(int id)
         {
-            try
-            {
                 Employee employee = await _employeeRepository.Get(id);
-                return employee;
-            }
-            catch (Exception ex)
-            {
+                if(employee!=null)
+                {
+                    return employee;
+                }
                 throw new Exception("Employee Not Found!");
-            }
         }
     }
 }

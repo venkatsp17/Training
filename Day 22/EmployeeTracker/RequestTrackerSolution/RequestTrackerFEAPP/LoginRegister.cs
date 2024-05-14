@@ -10,6 +10,12 @@ namespace RequestTrackerFEAPP
 {
     public class LoginRegister
     {
+        InputOperations inputOperations;
+        IEmployeeLoginBL EmployeeLoginBL;
+        public LoginRegister() { 
+            inputOperations = new InputOperations();
+            EmployeeLoginBL = new EmployeeLoginBL();
+        }
         async Task<Employee> EmployeeLoginAsync(int username, string password)
         {
             Employee employee = new Employee() { Password = password, Id = username };
@@ -32,6 +38,26 @@ namespace RequestTrackerFEAPP
             await Console.Out.WriteLineAsync("Please enter your password");
             string password = Console.ReadLine() ?? "";
             return await EmployeeLoginAsync(id, password);
+        }
+
+        public async Task<Employee> RegisterEmployee()
+        {
+            await Console.Out.WriteLineAsync("Enter Employee Name:");
+            string name = inputOperations.GetStringInput();
+            await Console.Out.WriteLineAsync("Enter Employee Role:");
+            string role = inputOperations.GetStringInput();
+            await Console.Out.WriteLineAsync("Enter Password:");
+            string password = inputOperations.GetStringInput();
+            Employee employee = new Employee();
+            employee.Name = name;
+            employee.Password = password;
+            employee.Role = role;
+            Employee employeeAdded = await EmployeeLoginBL.Register(employee);
+            if(employeeAdded!=null) {
+                await Console.Out.WriteLineAsync("Employee Registered!"+employeeAdded.Id);
+                return employeeAdded;
+            }
+            return null;
         }
     }
 }

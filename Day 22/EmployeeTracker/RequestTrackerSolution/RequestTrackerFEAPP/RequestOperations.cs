@@ -29,43 +29,72 @@ namespace RequestTrackerFEAPP
             request.RequestDate = DateTime.Now;
             request.RequestRaisedBy = Id;
 
-            request.RequestStatus = "Initiated";
+            request.RequestStatus = "Open";
 
             request.RequestClosedBy = 101;
-            
-            Request raised = await requestBL.RaiseRequest(request);
-            if(raised != null)
+            try
             {
-                Console.WriteLine("Request Raised successfully!");
+                Request raised = await requestBL.RaiseRequest(request);
+                if (raised != null)
+                {
+                    Console.WriteLine("Request Raised successfully! Id:" + raised.RequestNumber);
 
+                }
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Error Raising request!");
+                Console.Out.WriteLine(ex);
             }
         }
 
         public async Task ViewAllRequestStatus(int Id)
         {
-
-            ICollection<Request> requests = await requestBL.ViewRequestStatus(Id);
-            await Console.Out.WriteLineAsync("Message\t\t\t\tDate\t\tRaisedBy\t\tStatus");
-            foreach (Request request in requests)
+            try
             {
-                await Console.Out.WriteLineAsync(request.RequestMessage+"\t\t\t\t"+request.RequestDate+"\t\t"+request.RequestRaisedBy+"\t\t"+request.RequestStatus);
+                ICollection<Request> requests = await requestBL.ViewRequestStatus(Id);
+                foreach (Request request in requests)
+                {
+                    await Console.Out.WriteLineAsync("---------------------------------------------------");
+                    await Console.Out.WriteLineAsync("Request Number: " + request.RequestNumber);
+                    await Console.Out.WriteLineAsync("Message: " + request.RequestMessage);
+                    await Console.Out.WriteLineAsync("Raised By: " + request.RequestRaisedBy);
+                    await Console.Out.WriteLineAsync("Status: " + request.RequestStatus);
+                    await Console.Out.WriteLineAsync("Request Date: " + request.RequestDate);
+                    await Console.Out.WriteLineAsync("---------------------------------------------------");
+                }
             }
+            catch(Exception ex)
+            {
+                Console.Out.WriteLine(ex);
+            }
+            
+           
 
         }
 
         public async Task ViewAllRequestStatusAdmin()
         {
 
-            IList<Request> requests = await requestBL.ViewRequestStatusAdmin();
-            await Console.Out.WriteLineAsync("Message\t\tDate\t\tRaisedBy\t\tStatus");
-            foreach (Request request in requests)
+            try
             {
-                await Console.Out.WriteLineAsync(request.RequestMessage + "\t\t" + request.RequestDate + "\t\t" + request.RequestRaisedBy + "\t\t" + request.RequestStatus);
+                IList<Request> requests = await requestBL.ViewRequestStatusAdmin();
+
+                foreach (Request request in requests)
+                {
+                    await Console.Out.WriteLineAsync("---------------------------------------------------");
+                    await Console.Out.WriteLineAsync("Request Number: " + request.RequestNumber);
+                    await Console.Out.WriteLineAsync("Message: " + request.RequestMessage);
+                    await Console.Out.WriteLineAsync("Raised By: " + request.RequestRaisedBy);
+                    await Console.Out.WriteLineAsync("Status: " + request.RequestStatus);
+                    await Console.Out.WriteLineAsync("Request Date: " + request.RequestDate);
+                    await Console.Out.WriteLineAsync("---------------------------------------------------");
+                }
             }
+            catch (Exception ex)
+            {
+                Console.Out.WriteLine(ex);
+            }
+            
 
         }
 
@@ -74,11 +103,20 @@ namespace RequestTrackerFEAPP
             int id;
             await Console.Out.WriteLineAsync("Enter Request ID:");
             id = inputOperations.GetIntInput();
-            Request request = await requestBL.CloseRequest(id, EmployeeId);
-            if (request != null)
+
+            try
             {
-                await Console.Out.WriteLineAsync("Request Updated successfully!");
+                Request request = await requestBL.CloseRequest(id, EmployeeId);
+                if (request != null)
+                {
+                    await Console.Out.WriteLineAsync("Request Updated successfully!");
+                }
             }
+            catch (Exception ex)
+            {
+                Console.Out.WriteLine(ex);
+            }
+           
         }
     }
 }

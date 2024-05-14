@@ -24,41 +24,74 @@ namespace RequestTrackerFEAPP
         {
             await Console.Out.WriteLineAsync("Enter Request ID:");
             int id = inputOperations.GetIntInput();
-            Request requestSolution = await requestSolutionBL.ViewAllRequestSolutions(id);
-            await Console.Out.WriteLineAsync("RequestID\tSolutionID\tDescription\tSolved Date\tSolved By\tIs Solved\t Comment");
-            foreach (RequestSolution solution in requestSolution.RequestSolutions) {
-                await Console.Out.WriteLineAsync(solution.RequestId+"\t"+solution.SolutionId+"\t"+solution.SolutionDescription+"\t"+solution.SolvedDate+"\t"+solution.SolvedBy+"\t"+solution.IsSolved+"\t"+solution.RequestRaiserComment);
+
+            try
+            {
+                Request requestSolution = await requestSolutionBL.ViewAllRequestSolutions(id);
+                foreach (RequestSolution solution in requestSolution.RequestSolutions)
+                {
+                    await Console.Out.WriteLineAsync("---------------------------------------------------");
+                    await Console.Out.WriteLineAsync("Request Number: " + solution.RequestId);
+                    await Console.Out.WriteLineAsync("Solution ID: " + solution.SolutionId);
+                    await Console.Out.WriteLineAsync("Description: " + solution.SolutionDescription);
+                    await Console.Out.WriteLineAsync("Solved Date: " + solution.SolvedDate);
+                    await Console.Out.WriteLineAsync("Solved By: " + solution.SolvedBy);
+                    await Console.Out.WriteLineAsync("Comments: " + solution.RequestRaiserComment);
+                    await Console.Out.WriteLineAsync("---------------------------------------------------");
+                }
             }
+            catch (Exception ex)
+            {
+                Console.Out.WriteLine(ex);
+            }
+           
         }
 
         public async Task ViewAllSolutionsAdmin()
         {
-            IList<RequestSolution> requestSolution = await requestSolutionBL.ViewAllRequestSolutionsAdmin();
-            await Console.Out.WriteLineAsync("RequestID\tSolutionID\tDescription\tSolved Date\tSolved By\tIs Solved\t Comment");
-            foreach (RequestSolution solution in requestSolution)
+            try
             {
-                await Console.Out.WriteLineAsync(solution.RequestId + "\t" + solution.SolutionId + "\t" + solution.SolutionDescription + "\t" + solution.SolvedDate + "\t" + solution.SolvedBy + "\t" + solution.IsSolved + "\t" + solution.RequestRaiserComment);
+                IList<RequestSolution> requestSolution = await requestSolutionBL.ViewAllRequestSolutionsAdmin();
+                foreach (RequestSolution solution in requestSolution)
+                {
+                    await Console.Out.WriteLineAsync("---------------------------------------------------");
+                    await Console.Out.WriteLineAsync("Request Number: " + solution.RequestId);
+                    await Console.Out.WriteLineAsync("Solution ID: " + solution.SolutionId);
+                    await Console.Out.WriteLineAsync("Description: " + solution.SolutionDescription);
+                    await Console.Out.WriteLineAsync("Solved Date: " + solution.SolvedDate);
+                    await Console.Out.WriteLineAsync("Solved By: " + solution.SolvedBy);
+                    await Console.Out.WriteLineAsync("Comments: " + solution.RequestRaiserComment);
+                    await Console.Out.WriteLineAsync("---------------------------------------------------");
+                }
             }
+            catch(Exception ex)
+            {
+                Console.Out.WriteLine(ex);
+            }
+            
         }
 
-        public async Task RespondToSolution()
+        public async Task RespondToSolution(int ID)
         {
             await Console.Out.WriteLineAsync("Enter Solution ID:");
             int id = inputOperations.GetIntInput();
             await Console.Out.WriteLineAsync("Enter Comments:");
             string comments = inputOperations.GetStringInput();
-            RequestSolution requestSolution = await requestSolutionBL.RespondToSolution(id, comments);
-            if(requestSolution != null)
+            try
             {
-                await Console.Out.WriteLineAsync("Solution Updated successfully!");
+                RequestSolution requestSolution = await requestSolutionBL.RespondToSolution(id, comments, ID);
+                if (requestSolution != null)
+                {
+                    await Console.Out.WriteLineAsync("Solution Updated successfully!");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                await Console.Out.WriteLineAsync("Error Updating solution!");
+                Console.Out.WriteLine(ex);
             }
         }
 
-        public async Task ProvideSolution()
+        public async Task ProvideSolution(int Id)
         {
             RequestSolution solution = new RequestSolution();
             int id;
@@ -66,17 +99,25 @@ namespace RequestTrackerFEAPP
             await Console.Out.WriteLineAsync("Enter Solution Description:");
             solution.SolutionDescription = inputOperations.GetStringInput();
             solution.SolvedDate = DateTime.Now;
-
+            solution.SolvedBy = Id;
             await Console.Out.WriteLineAsync("Enter Request ID:");
             id = inputOperations.GetIntInput();
             solution.RequestId = id;
-            solution.IsSolved = false;
-            RequestSolution requestSolution = await requestSolutionBL.GiveSolution(solution);
 
-            if( requestSolution != null )
+            try
             {
-                await Console.Out.WriteLineAsync("Solution Added successfully!");
+                RequestSolution requestSolution = await requestSolutionBL.GiveSolution(solution);
+
+                if (requestSolution != null)
+                {
+                    await Console.Out.WriteLineAsync("Solution Added successfully!");
+                }
             }
+            catch(Exception ex)
+            {
+                Console.Out.WriteLine(ex);
+            }
+           
         }
     }
 }

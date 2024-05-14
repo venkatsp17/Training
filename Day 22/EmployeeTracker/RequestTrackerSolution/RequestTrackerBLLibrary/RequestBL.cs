@@ -22,71 +22,54 @@ namespace RequestTrackerBLLibrary
         }
         public async Task<Request> CloseRequest(int requestNumber, int Id)
         {
-            try
-            {
                 var result = await _RequestRepository.Get(requestNumber);
-                result.ClosedDate = DateTime.Now;
-                result.RequestClosedBy = Id;
-                return await _RequestRepository.Update(result);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("No Request Found!");
-            }
+                if (result != null)
+                {
+                    result.ClosedDate = DateTime.Now;
+                    result.RequestClosedBy = Id;
+                    result.RequestStatus = "Closed";
+                    return await _RequestRepository.Update(result);
+                }
+            throw new Exception("No Request Found!");
         }
 
         public async Task<Request> GetRequestById(int Id)
         {
-            try
+            var result = await _RequestRepository.Get(Id);
+            if (result != null)
             {
-                var result = await _RequestRepository.Get(Id);
                 return result;
             }
-            catch
-            {
-                throw new Exception("Error Getting Request!");
-            }
+            throw new Exception("Error Getting Request!");
         }
 
         public async Task<Request> RaiseRequest(Request request)
         {
-            try
-            {
-                var result = await _RequestRepository.Add(request);
-                return result;
-            }
-            catch(Exception ex) {
-                throw new Exception("Failed to Add Request!", ex);
-            }
-            
+             var result = await _RequestRepository.Add(request);
+             if(result != null) {
+                  return result;
+              }
+            throw new Exception("Failed to Add Request!");
         }
 
         public async Task<ICollection<Request>> ViewRequestStatus(int EmployeeID)
         {
-            try
-            {
-                var result = await _EmployeeRequestRepository.Get(EmployeeID);
-                return result.RequestsRaised;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Failed to Load Requests!");
-            }
-            
+             var result = await _EmployeeRequestRepository.Get(EmployeeID);
+             if(result != null)
+             {
+                    return result.RequestsRaised;
+             }
+             throw new Exception("Failed to Load Requests!");
         }
 
         public async Task<IList<Request>> ViewRequestStatusAdmin()
         {
-            try
+            var result = await _RequestRepository.GetAll();
+            if(result != null)
             {
-                var result = await _RequestRepository.GetAll();
                 return result;
             }
-            catch (Exception ex)
-            {
-                throw new Exception("Failed to Load Requests!");
-            }
-
+            throw new Exception("Failed to Load Requests!");
         }
     }
 }

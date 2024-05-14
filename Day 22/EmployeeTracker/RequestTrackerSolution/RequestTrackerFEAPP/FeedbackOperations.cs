@@ -27,8 +27,9 @@ namespace RequestTrackerFEAPP
         {
             SolutionFeedback feedback = new SolutionFeedback();
             int solutionID;
-
+            await Console.Out.WriteLineAsync("Enter Rating:");
             feedback.Rating = inputOperations.GetFloatInput();
+            await Console.Out.WriteLineAsync("Enter Remarks:");
             feedback.Remarks = inputOperations.GetStringInput();
             feedback.FeedbackDate = DateTime.Now;
             feedback.FeedbackBy = Id;
@@ -36,14 +37,17 @@ namespace RequestTrackerFEAPP
             await Console.Out.WriteLineAsync("Enter Solution ID:");
             solutionID = inputOperations.GetIntInput();
             feedback.SolutionId = solutionID;
-            SolutionFeedback solutionFeedbackresult = await solutionFeedback.GiveFeedbackOnSolution(feedback);
-            if(solutionFeedbackresult != null)
+            try
             {
-                await Console.Out.WriteLineAsync("Feedback Added!");
+                SolutionFeedback solutionFeedbackresult = await solutionFeedback.GiveFeedbackOnSolution(feedback);
+                if (solutionFeedbackresult != null)
+                {
+                    await Console.Out.WriteLineAsync("Feedback Added! Id:" + solutionFeedbackresult.FeedbackId);
+                }
             }
-            else
+            catch (Exception ex)
             {
-                await Console.Out.WriteLineAsync("Error Adding Feedback");
+                Console.WriteLine(ex);
             }
         }
     }

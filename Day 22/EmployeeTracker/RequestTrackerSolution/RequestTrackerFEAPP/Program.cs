@@ -8,124 +8,98 @@ namespace RequestTrackerFEAPP
 {
     internal class Program
     {
-
-        void ShowUserListOperations()
+        private static async Task<Employee> Login(LoginRegister loginRegister, InputOperations inputOperations)
         {
-            Console.WriteLine("0. Exit");
-            Console.WriteLine("1. Raise Request");
-            Console.WriteLine("2. View Request Status");
-            Console.WriteLine("3. View Solutions");
-            Console.WriteLine("4. Give Feedback");
-            Console.WriteLine("5. Respond to Solution");
+            bool IsloggedIn = false;
+            Employee employee = null;
+            do
+            {
+                Console.Out.WriteLine("---------------------------------------------------");
+                Console.Out.WriteLine("---------------------------------------------------");
+                await Console.Out.WriteLineAsync("0. Exit");
+                await Console.Out.WriteLineAsync("1. Login");
+                await Console.Out.WriteLineAsync("2. Register");
+                await Console.Out.WriteLineAsync("Choose Operation:");
+
+                int input = inputOperations.GetIntInput();
+                Console.Out.WriteLine("---------------------------------------------------");
+
+                if (input == 0)
+                {
+                    IsloggedIn = true;
+                }
+                else if (input == 1)
+                {
+                    employee = await loginRegister.GetLoginDeatils();
+                    if (employee != null)
+                    {
+                        IsloggedIn = true;
+                    }
+                    else
+                    {
+                        await Console.Out.WriteLineAsync("Invalid Credentials. Try Again");
+                    }
+                }
+                else if (input == 2)
+                {
+                    employee = await loginRegister.RegisterEmployee();
+                    if (employee != null)
+                    {
+                        IsloggedIn = true;
+                    }
+                }
+            } while (!IsloggedIn);
+
+            return employee;
         }
 
-        void ShowAdminListOperations()
-        {
-            Console.WriteLine("0. Exit");
-            Console.WriteLine("1. Raise Request");
-            Console.WriteLine("2. View All Request Status");
-            Console.WriteLine("3. View All Solutions");
-            Console.WriteLine("4. Give Feedback");
-            Console.WriteLine("5. Respond to Solution");
-            Console.WriteLine("6. Provide Solution");
-            Console.WriteLine("7. Mark Request as Closed");
-            //Console.WriteLine("8. View Feedbacks");
-        }
         static async Task Main(string[] args)
         {
-            Program program = new Program();
             LoginRegister loginRegister = new LoginRegister();
             InputOperations inputOperations = new InputOperations();
-            RequestOperations requestOperations = new RequestOperations();
-            SolutionOperations solutionOperations = new SolutionOperations();
-            FeedbackOperations feedbackOperations = new FeedbackOperations();
+            Operations operations = new Operations();
 
-
-            Employee employee = await loginRegister.GetLoginDeatils();
-
-
-            if(employee != null)
+            Employee employee;
+            
+            do
             {
-                int input;
-                if (employee.Role == "Admin")
-                {
-       
-                    do
-                    {
-                       program.ShowAdminListOperations();
-                       input = inputOperations.GetIntInput();
-                       switch (input)
-                        {
-                            case 0:
-                                return;
-                            case 1:
-                               await requestOperations.RaiseNewRequest(employee.Id);
-                               break;
-                            case 2:
-                               await requestOperations.ViewAllRequestStatusAdmin();
-                               break;
-                            case 3:
-                                await solutionOperations.ViewAllSolutionsAdmin();
-                                break;
-                            case 4:
-                                await feedbackOperations.GiveFeedBack(employee.Id);
-                                break;
-                            case 5:
-                                await solutionOperations.RespondToSolution();
-                                break;
-                            case 6:
-                                await solutionOperations.ProvideSolution();
-                                break;
-                            case 7:
-                                await requestOperations.UpdateClosed(employee.Id);
-                                break;
-                            default:
-                                await Console.Out.WriteLineAsync("Invalid Operation!");
-                                break;
-                        }
-
-                    } while(true);
-                   
-                }
+                bool IsloggedIn = true;
+                employee = await Login(loginRegister, inputOperations);
+                if (employee==null)
+                    return;
                 else
                 {
-                    do
+                    if (employee.Role == "Admin")
                     {
-                        program.ShowUserListOperations();
-                        input = inputOperations.GetIntInput();
-                        switch (input)
+                        Console.WriteLine("Logged in as Admin");
+                        do
                         {
-                            case 0:
-                                return;
-                            case 1:
-                                await requestOperations.RaiseNewRequest(employee.Id);
-                                break;
-                            case 2:
-                                await requestOperations.ViewAllRequestStatus(employee.Id);
-                                break;
-                            case 3:
-                                await solutionOperations.ViewAllSolutions();
-                                break;
-                            case 4:
-                                await feedbackOperations.GiveFeedBack(employee.Id);
-                                break;
-                            case 5:
-                                await solutionOperations.RespondToSolution();
-                                break;
-                            default:
-                                await Console.Out.WriteLineAsync("Invalid Operation!");
-                                break;
+                            int run = await operations.AdminOperations(employee.Id);
+                            if (run == 0)
+                            {
+                                IsloggedIn = false;
+                            }
 
-                        }
+                        } while (IsloggedIn);
 
-                    } while (true);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Logged in as User");
+                        do
+                        {
+                            int run = await operations.UserOperations(employee.Id);
+                            if (run == 0)
+                            {
+                                IsloggedIn = false;
+                            }
 
+                        } while (IsloggedIn);
+
+                    }
                 }
-            }
-            else
-            {
-                await Console.Out.WriteLineAsync("Invalid Login Credentials");
-            }
+            } while (employee!=null);
+                
         }
     }
 }

@@ -21,84 +21,80 @@ namespace RequestTrackerBLLibrary
 
         public async Task<RequestSolution> GetSolutionByID(int Id)
         {
-            try
-            {
-                return await _solutionRepository.Get(Id);
-            }
-            catch
-            {
-                throw new Exception("Error Getting Solution!");
-            }
-
-
+                var result = await _solutionRepository.Get(Id);
+                if (result != null) {
+                    return result;
+                }
+            throw new Exception("Error Getting Solution!");
         }
 
         public async Task<RequestSolution> GiveSolution(RequestSolution solution)
         {
-            try
-            {
-                return await _solutionRepository.Add(solution);
-            }
-            catch
-            {
-                throw new Exception("Error Adding Solution!");
-            }
 
+            var result = await _solutionRepository.Add(solution);
+            if (result != null)
+            {
+                return result;
+            } 
+            throw new Exception("Error Adding Solution!");
 
         }
 
         public async Task<RequestSolution> ProvideSolution(RequestSolution solution)
         {
-            try
+            var result = await _solutionRepository.Add(solution);
+            if (result != null)
             {
-                return await _solutionRepository.Add(solution);
+                return result;
             }
-            catch
-            {
-                throw new Exception("Error Adding Solution");
-            }
+            throw new Exception("Error Adding Solution!");
         }
 
-        public async Task<RequestSolution> RespondToSolution(int solutionId, string comments)
+        public async Task<RequestSolution> RespondToSolution(int solutionId, string comments, int EmpID)
         {
-
-            try
+            RequestSolution requestSolution = await _solutionRepository.Get(solutionId);
+            if (requestSolution != null)
             {
-                RequestSolution requestSolution = await _solutionRepository.Get(solutionId);
-                requestSolution.RequestRaiserComment = comments;
-                return await _solutionRepository.Update(requestSolution);
-            }
-            catch
-            {
+                var request = await _repository.Get(requestSolution.RequestId);
+                if(request != null)
+                {
+                    if(request.RequestRaisedBy == EmpID)
+                    {
+                        requestSolution.RequestRaiserComment = comments;
+                        var result = await _solutionRepository.Update(requestSolution);
+                        if (result != null)
+                        {
+                            return result;
+                        }
+                        throw new Exception("Error Updating Solution!");
+                    }
+                    throw new Exception("User Operation not allowed!");
+                }
                 throw new Exception("Error Updating Solution!");
             }
+            throw new Exception("Error Updating Solution!");
+
         }
 
         public async Task<Request> ViewAllRequestSolutions(int Id)
         {
-            try
-            {
-                return await _repository.Get(Id);
-            }
-            catch {
-                throw new Exception("No Solutions Available!");
-            }
-
-           
+                var result = await _repository.Get(Id);
+                if(result!= null)
+                {
+                    return result;
+                }
+            throw new Exception("No Solutions Available!");
         }
 
         public async Task<IList<RequestSolution>> ViewAllRequestSolutionsAdmin()
         {
-            try
-            {
-                return await _solutionRepository.GetAll();
-            }
-            catch
-            {
+                var result =  await _solutionRepository.GetAll();
+                if(result!= null)
+                {
+                    return result;
+                }
                 throw new Exception("No Solutions Available!");
-            }
         }
-
 
     }
 }
