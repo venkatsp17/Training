@@ -1,0 +1,348 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\interfaces\\itokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\interfaces\\itokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\models\\dtos\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\dtos\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\contexts\\requesttrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\contexts\\requesttrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\models\\dtos\\employeeuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\dtos\\employeeuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\models\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|c:\\users\\vc\\desktop\\training\\day 26\\employeerequesttrackersolution\\employeerequesttrackerapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0BE5E3-57CF-4AE2-B631-63B57B6582A2}|EmployeeRequestTrackerAPI\\EmployeeRequestTrackerAPI.csproj|solutionrelative:employeerequesttrackerapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginReturnDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\LoginReturnDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\DTOs\\LoginReturnDTO.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\LoginReturnDTO.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\DTOs\\LoginReturnDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T06:49:43.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\appsettings.json",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T16:41:42.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITokenServices.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\ITokenServices.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Interfaces\\ITokenServices.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\ITokenServices.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Interfaces\\ITokenServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T06:50:49.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\TokenService.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Services\\TokenService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T06:51:58.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Services\\UserService.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAADwv1oAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:08:22.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Program.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Program.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAYwFIAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:08:39.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:47:26.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\User.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T04:52:05.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBYAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T06:55:37.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:33:05.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:07:04.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RequestTrackerContext.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Contexts\\RequestTrackerContext.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Contexts\\RequestTrackerContext.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Contexts\\RequestTrackerContext.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Contexts\\RequestTrackerContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T04:52:20.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorModel.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\ErrorModel.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\ErrorModel.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\ErrorModel.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\ErrorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T18:27:12.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\DTOs\\UserLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:03:36.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T17:54:33.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAIBQwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T17:17:37.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeeUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\EmployeeUserDTO.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Models\\DTOs\\EmployeeUserDTO.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Models\\DTOs\\EmployeeUserDTO.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Models\\DTOs\\EmployeeUserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T05:04:18.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeRequestTrackerAPI\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\Day 26\\EmployeeRequestTrackerSolution\\EmployeeRequestTrackerAPI\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "EmployeeRequestTrackerAPI\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAmwDIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T04:43:23.799Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 235,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{320fd13f-632f-4b16-9527-a1adfe555f6c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
