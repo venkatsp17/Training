@@ -1,0 +1,14 @@
+1)Weather Observation Station 5
+
+Select top(1) City, Len(City) from Station order by Len(City) asc, City asc;
+Select top(1) City, Len(City) from Station order by Len(City) desc, City desc;
+
+2)Ollivander's Inventory
+
+With MinCoinsPerAgePower As
+(Select wp.age, w.power, min(w.coins_needed) as min_coins from Wands w join Wands_Property wp on w.code =wp.code where wp.is_evil = 0 group by wp.age, w.power)
+Select w1.id, wp1.age, w1.coins_needed, w1.power from Wands w1
+join Wands_Property wp1 on w1.code = wp1.code
+join MinCoinsPerAgePower m on m.age = wp1.age and m.power = w1.power 
+Where wp1.is_evil = 0 and w1.coins_needed = m.min_coins 
+Order by w1.power desc, wp1.age desc;
