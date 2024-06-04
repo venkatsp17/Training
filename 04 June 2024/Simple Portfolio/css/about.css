@@ -1,0 +1,19 @@
+*{
+    font-family: "Audiowide", sans-serif;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay-frame {
+    position: absolute;
+    top: 150px; 
+    left: 170px;
+    width: 450px; 
+    height: 450px;
+    border: 8px solid red; 
+    border-radius: 10px;
+    z-index: -1; 
+}

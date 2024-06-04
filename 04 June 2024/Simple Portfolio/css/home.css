@@ -1,0 +1,35 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.title1{
+    margin: 0;
+    font-size: 3em;
+    font-weight: bolder;
+    color: grey;
+}
+
+.title2{
+    margin: 0;
+    font-size: 4.5em;
+    font-weight: bolder;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 3px;
+    background-color: red;
+    display: inline-block;
+}
+
+* {
+    font-family: "Audiowide", sans-serif;
+
+}
