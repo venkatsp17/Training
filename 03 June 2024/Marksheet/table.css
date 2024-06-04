@@ -1,0 +1,14 @@
+td, th {
+    text-align: center;
+    padding: 8px;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  tbody > tr > th,td{
+    margin: 0;
+    border-right: 1px solid black;
+  }
