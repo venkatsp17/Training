@@ -1,0 +1,133 @@
+* {
+    font-family: "Audiowide", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.image-container {
+    position: relative;
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.overlay-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    border: 8px solid red;
+    border-radius: 10px;
+    z-index: -1;
+    transform: translate(15%, 15%);
+}
+
+.text-container {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.125em;
+    }
+
+    .profile-photo {
+        max-width: 350px;
+    }
+
+    .overlay-frame {
+        max-width: 350px;
+        transform: translate(10%, 10%);
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-photo {
+        max-width: 300px;
+    }
+
+    .overlay-frame {
+        max-width: 300px;
+        transform: translate(5%, 5%);
+    }
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.875em;
+    }
+
+    .profile-photo {
+        max-width: 250px;
+    }
+
+    .overlay-frame {
+        max-width: 250px;
+        transform: translate(5%, 5%);
+    }
+}

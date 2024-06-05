@@ -1,0 +1,72 @@
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.emplyadd{
+    width: 100%;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    background-color: rgb(91, 187, 219);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+* {
+    font-family: "Audiowide", sans-serif;
+}
+
+.outline{
+  border: 5px solid black; 
+  padding: 1%; 
+  width: 60%;
+}
+
+@media (max-width:1024px){
+  .outline{
+    width: 70%;
+  }
+}
+
+@media (max-width:768px){
+  .outline{
+    width: 90%;
+  }
+  .row{
+    margin: 50px
+  }
+}
+
+@media (max-width:480px){
+  .outline{
+    width: 100%;
+  }
+  .row{
+    margin: 50px
+  }
+}

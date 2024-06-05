@@ -1,0 +1,113 @@
+body {
+    font-family: "Audiowide", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bolder;
+    color: grey;
+}
+
+.title2 {
+    margin: 0;
+    font-size: 4.5em;
+    font-weight: bolder;
+}
+
+.title3 {
+    margin: 0;
+    font-size: 4em;
+    font-weight: bolder;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 3px;
+    background-color: red;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.text {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 20px;
+    max-width: 800px;
+}
+
+img {
+    height: 80px;
+    width: 180px;
+    margin: 10px;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .text {
+        font-size: 1rem;
+    }
+    img {
+        height: 70px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        height: 60px;
+        width: 140px;
+    }
+    .text {
+        font-size: 0.9rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 0.8rem;
+        margin: 10px;
+    }
+    img {
+        height: 50px;
+        width: 120px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .text-container{
+        margin: 10px;
+    }
+}
