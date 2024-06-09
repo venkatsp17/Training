@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cover Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              customblue: "#2F80ED",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .diagonal-split::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom right, white 50%, #2f80ed 50%);
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body class="m-0 p-0 overflow-hidden">
+    <div class="relative w-full h-screen diagonal-split">
+      <div class="absolute top-5 left-5 md:top-8 md:left-10 lg:top-12 lg:left-16">
+        <div class="mb-5 md:mb-10">
+          <h1 class="text-customblue text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
+            FREE Gmail UI
+          </h1>
+          <h1 class="text-customblue text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
+            iPhone & Android
+          </h1>
+          <h1 class="text-customblue text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
+            Mockup <span class="text-black">2024</span>
+          </h1>
+          <h1 class="text-black text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold">
+            Design Template
+          </h1>
+        </div>
+        <div class="">
+          <ul>
+            <li class="text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              • Android
+            </li>
+            <li class="text-black text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold">
+              • iPhone
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <img class="w-[160px] md:w-[200px] lg:w-[220px] xl:w-[280px] absolute bottom-5 right-48 sm:right-48 md:right-64 lg:right-80 xl:right-96 z-10 " src="./assets/Android Gmail inbox.png" />
+        <img class="w-[160px] md:w-[200px] lg:w-[220px] xl:w-[280px] absolute bottom-12 right-44 sm-right-44 md:right-56 lg:right-72 xl:right-80" src="./assets/Android Open mail.png" />
+        <img class="w-[160px] md:w-[200px] lg:w-[220px] xl:w-[280px] absolute bottom-5 right-5 sm:right-5 md:right-8 lg:right-8 xl:right-10 z-10" src="./assets/iPhone 11 Pro Gmail Inbox.png" />
+        <img class="w-[160px] md:w-[200px] lg:w-[220px] xl:w-[280px] absolute bottom-12 right-0 sm:right-0 md:right-1 lg:right-1 xl:right-2" src="./assets/iPhone 11 Pro Open Mail.png" />
+      </div>
+    </div>
+  </body>
+</html>

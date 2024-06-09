@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Table</title>
+    <link rel="stylesheet" href="../output.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script> -->
+    <style>
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.1); /* White with 10% opacity */
+        backdrop-filter: blur(10px); /* Apply a blur effect */
+        border: 1px solid rgba(255, 255, 255, 0.3); /* Semi-transparent border */
+        padding: 2rem; /* Tailwind utility class equivalent: p-8 */
+        border-radius: 0.5rem; /* Tailwind utility class equivalent: rounded-lg */
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1),
+          0 4px 6px rgba(0, 0, 0, 0.05); /* Tailwind utility class equivalent: shadow-lg */
+      }
+      /* Pagination buttons */
+      .pagination-button {
+        background: rgba(
+          255,
+          255,
+          255,
+          0.6
+        ); /* Semi-transparent button background */
+        border: 1px solid rgba(255, 255, 255, 0.3); /* Semi-transparent button border */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Button shadow */
+        transition: background 0.3s ease;
+      }
+
+      .pagination-button:hover {
+        background: rgba(255, 255, 255, 0.8); /* Hover effect for buttons */
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 p-4">
+    <div
+      class="max-w-7xl mx-auto bg-white p-4 shadow rounded-lg overflow-x-auto"
+    >
+      <!-- Table Header -->
+      <div class="flex justify-between items-center pb-4">
+        <div class="w-96 flex justify-left items-center">
+          <button
+            class="mr-3 relative flex justify-center items-center p-2.5 border rounded-lg bg-white-600 text-white focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+          >
+            <svg
+              class="w-5 h-5 mr-2 text-grey"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="grey"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2a1 1 0 01-.293.707l-7 7V18a1 1 0 01-.293.707l-2 2A1 1 0 0110 20v-6.586l-7-7A1 1 0 013 6V4z"
+              />
+            </svg>
+          </button>
+          <div class="relative flex items-center">
+            <svg
+              class="absolute left-3 w-5 h-5 text-gray-500"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-4.35-4.35m2.65-6.65a8 8 0 11-16 0 8 8 0 0116 0z"
+              />
+            </svg>
+            <input
+              type="text"
+              placeholder="Search..."
+              class="pl-10 pr-4 py-1 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent w-full"
+            />
+          </div>
+        </div>
+        <button
+          class="flex justify-between w-40 items-center bg-blue-500 text-white px-4 py-2 rounded-lg"
+        >
+          <svg
+            class="inline-block"
+            fill="white"
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+            ></path>
+          </svg>
+          Add customer
+        </button>
+      </div>
+      <!-- Table -->
+      <table class="min-w-full bg-white">
+        <thead>
+          <tr class="border-b-4 border-solid border-green-500">
+            <th class="py-3 px-6 text-left">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                name="myCheckbox"
+                class="drop-shadow-md form-checkbox h-5 w-5 text-indigo-600"
+              />
+            </th>
+            <th class="py-3 px-6 text-left">#</th>
+            <th class="py-3 px-6 text-left">Name</th>
+            <th class="py-3 px-6 text-left">Description</th>
+            <th class="py-3 px-6 text-left">Status</th>
+            <th class="py-3 px-6 text-left">Rate</th>
+            <th class="py-3 px-6 text-left">Balance</th>
+            <th class="py-3 px-6 text-left">Deposit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b">
+            <td class="py-2 px-6 text-left">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                name="myCheckbox"
+                class="drop-shadow-md form-checkbox h-5 w-5 text-indigo-600"
+              />
+            </td>
+            <td class="py-2 px-6 text-left"><b>1</b></td>
+            <td class="py-2 px-6 text-left">
+              Ann Culhane
+              <span class="block text-slate-500 text-sm">5684236526</span>
+            </td>
+            <td class="py-1 px-6 text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...
+            </td>
+            <td class="py-2 px-5 text-left">
+              <span class="text-blue-600 bg-sky-50 px-4 py-1 rounded-full"
+                >Open</span
+              >
+            </td>
+            <td class="py-2 px-6 text-left">
+              $70.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-2 px-6 text-left">
+              <span class="text-red-600">-$270.00 </span
+              ><span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-2 px-6 text-left">
+              $500.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+          </tr>
+          <tr class="border-b bg-slate-50">
+            <td class="py-3 px-6 text-left">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                name="myCheckbox"
+                class="drop-shadow-md form-checkbox h-5 w-5 text-indigo-600"
+              />
+            </td>
+            <td class="py-3 px-6 text-left"><b>2</b></td>
+            <td class="py-3 px-6 text-left">
+              Ahmad Rosser
+              <span class="block text-slate-500 text-sm">5684236526</span>
+            </td>
+            <td class="py-3 px-6 text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...
+            </td>
+            <td class="py-3 px-5 text-left">
+              <span class="text-green-600 bg-green-50 px-4 py-1 rounded-full"
+                >Paid</span
+              >
+            </td>
+            <td class="py-3 px-6 text-left">
+              $70.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-3 px-6 text-left">
+              <span class="text-green-600">$270.00</span>
+              <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-3 px-6 text-left">
+              $500.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+          </tr>
+          <tr class="border-b">
+            <td class="py-2 px-6 text-left">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                name="myCheckbox"
+                class="drop-shadow-md form-checkbox h-5 w-5 text-indigo-600"
+              />
+            </td>
+            <td class="py-2 px-6 text-left"><b>3</b></td>
+            <td class="py-2 px-6 text-left">
+              Zain Calzoni
+              <span class="block text-slate-500 text-sm">5684236526</span>
+            </td>
+            <td class="py-1 px-6 text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...
+            </td>
+            <td class="py-2 px-5 text-left">
+              <span class="text-blue-600 bg-sky-50 px-4 py-1 rounded-full"
+                >Open</span
+              >
+            </td>
+            <td class="py-2 px-6 text-left">
+              $70.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-2 px-6 text-left">
+              <span class="text-red-600">-$20.00 </span
+              ><span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-2 px-6 text-left">
+              $500.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+          </tr>
+          <tr class="border-b bg-slate-50">
+            <td class="py-3 px-6 text-left">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                name="myCheckbox"
+                class="drop-shadow-md form-checkbox h-5 w-5 text-indigo-600"
+              />
+            </td>
+            <td class="py-3 px-6 text-left"><b>4</b></td>
+            <td class="py-3 px-6 text-left">
+              Leo Stantan<span class="block text-slate-500 text-sm"
+                >5684236526</span
+              >
+            </td>
+            <td class="py-3 px-6 text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...
+            </td>
+            <td class="py-3 px-5 text-left">
+              <span class="text-slate-700 bg-slate-200 px-4 py-1 rounded-full"
+                >Inactive</span
+              >
+            </td>
+            <td class="py-3 px-6 text-left">
+              $70.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-3 px-6 text-left">
+              <span class="text-green-600">$600.00</span>
+              <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-3 px-6 text-left">
+              $500.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+          </tr>
+          <tr class="border-b">
+            <td class="py-2 px-6 text-left">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                name="myCheckbox"
+                class="drop-shadow-md form-checkbox h-5 w-5 text-indigo-600"
+              />
+            </td>
+            <td class="py-2 px-6 text-left"><b>5</b></td>
+            <td class="py-2 px-6 text-left">
+              Kaiya Vetrovs<span class="block text-slate-500 text-sm"
+                >5684236526</span
+              >
+            </td>
+            <td class="py-1 px-6 text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...
+            </td>
+            <td class="py-2 px-5 text-left">
+              <span class="text-blue-600 bg-sky-50 px-4 py-1 rounded-full"
+                >Open</span
+              >
+            </td>
+            <td class="py-2 px-6 text-left">
+              $70.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-2 px-6 text-left">
+              <span class="text-red-600">-$350.00 </span
+              ><span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-2 px-6 text-left">
+              $500.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+          </tr>
+          <tr class="border-b bg-slate-50">
+            <td class="py-3 px-6 text-left">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                name="myCheckbox"
+                class="drop-shadow-md form-checkbox h-5 w-5 text-indigo-600"
+              />
+            </td>
+            <td class="py-3 px-6 text-left"><b>6</b></td>
+            <td class="py-3 px-6 text-left">
+              Ryan Westervelt<span class="block text-slate-500 text-sm"
+                >5684236526</span
+              >
+            </td>
+            <td class="py-3 px-6 text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...
+            </td>
+            <td class="py-3 px-5 text-left">
+              <span class="text-green-600 bg-green-50 px-4 py-1 rounded-full"
+                >Paid</span
+              >
+            </td>
+            <td class="py-3 px-6 text-left">
+              $70.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-3 px-6 text-left">
+              <span class="text-red-600">-$270.00</span>
+              <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-3 px-6 text-left">
+              $500.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+          </tr>
+          <tr class="border-b">
+            <td class="py-2 px-6 text-left">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                name="myCheckbox"
+                class="drop-shadow-md form-checkbox h-5 w-5 text-indigo-600"
+              />
+            </td>
+            <td class="py-2 px-6 text-left"><b>7</b></td>
+            <td class="py-2 px-6 text-left">
+              Corey Stanton<span class="block text-slate-500 text-sm"
+                >5684236526</span
+              >
+            </td>
+            <td class="py-1 px-6 text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...
+            </td>
+            <td class="py-2 px-5 text-left">
+              <span class="text-red-600 bg-red-50 px-4 py-1 rounded-full"
+                >Due</span
+              >
+            </td>
+            <td class="py-2 px-6 text-left">
+              $70.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-2 px-6 text-left">
+              <span class="text-red-600">$30.00 </span
+              ><span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-2 px-6 text-left">
+              $500.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+          </tr>
+          <tr class="border-b bg-slate-50">
+            <td class="py-3 px-6 text-left">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                name="myCheckbox"
+                class="drop-shadow-md form-checkbox h-5 w-5 text-indigo-600"
+              />
+            </td>
+            <td class="py-3 px-6 text-left"><b>8</b></td>
+            <td class="py-3 px-6 text-left">
+              Adison Aminoff<span class="block text-slate-500 text-sm"
+                >5684236526</span
+              >
+            </td>
+            <td class="py-3 px-6 text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...
+            </td>
+            <td class="py-3 px-5 text-left">
+              <span class="text-blue-600 bg-sky-50 px-4 py-1 rounded-full"
+                >Open</span
+              >
+            </td>
+            <td class="py-3 px-6 text-left">
+              $70.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-3 px-6 text-left">
+              <span class="text-red-600">-$270.00</span>
+              <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-3 px-6 text-left">
+              $500.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+          </tr>
+          <tr class="border-b">
+            <td class="py-2 px-6 text-left">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                name="myCheckbox"
+                class="drop-shadow-md form-checkbox h-5 w-5 text-indigo-600"
+              />
+            </td>
+            <td class="py-2 px-6 text-left"><b>9</b></td>
+            <td class="py-2 px-6 text-left">
+              Alfredo Aminoff<span class="block text-slate-500 text-sm"
+                >5684236526</span
+              >
+            </td>
+            <td class="py-1 px-6 text-left">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla...
+            </td>
+            <td class="py-2 px-5 text-left">
+              <span class="text-slate-600 bg-slate-50 px-4 py-1 rounded-full"
+                >Inactive</span
+              >
+            </td>
+            <td class="py-2 px-6 text-left">
+              $70.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-2 px-6 text-left">
+              <span class="text-green-600">$460.00 </span
+              ><span class="text-slate-500 text-sm">CAD</span>
+            </td>
+            <td class="py-2 px-6 text-left">
+              $500.00 <span class="text-slate-500 text-sm">CAD</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- Pagination -->
+      <div class="glass-effect flex justify-between items-center py-4">
+        <div class="text-gray-600">1-10 of 97</div>
+        <div class="flex items-center">
+          <span class="text-gray-600 mr-4">Rows per page:</span>
+          <select
+            class="text-grey focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+          >
+            <option>10</option>
+            <option>20</option>
+            <option>30</option>
+          </select>
+          <div class="pagination flex items-center p-2 rounded-lg">
+            <button
+              class="pagination-button px-3 py-1 rounded-lg focus:outline-none"
+            >
+              &lt;
+            </button>
+            <span class="px-3">1/10</span>
+            <button
+              class="pagination-button px-3 py-1 rounded-lg focus:outline-none"
+            >
+              &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
