@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .form-control:focus {
+            border-color: yellow;
+            box-shadow: none;
+        }
+        .is-valid {
+            border-color: green !important;
+            padding-right: calc(1.5em + 0.75rem);
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'%3E%3Cpath fill-rule='evenodd' d='M16 3.857L6.118 13.776 0 7.71l2.118-2.118 3.882 3.887L14.77 0z' fill='%2300FF00'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right calc(0.375em + 0.1875rem) center;
+            background-size: calc(1em + 0.375rem) calc(1em + 0.375rem);
+        }
+        .is-invalid {
+            border-color: red !important;
+            padding-right: calc(1.5em + 0.75rem);
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'%3E%3Cpath fill-rule='evenodd' d='M3.546 3.54L7.5 7.5l3.956-3.96 2.118 2.118L9.618 9.618l3.955 3.956-2.118 2.118L7.5 11.74l-3.956 3.955L1.427 13.5 5.382 9.54 1.427 5.587 3.546 3.54z' fill='%23FF0000'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right calc(0.375em + 0.1875rem) center;
+            background-size: calc(1em + 0.375rem) calc(1em + 0.375rem);
+        }
+        .form-container-valid {
+            border-color: green !important;
+            box-shadow: 0 0 5px green;
+        }
+        .invalid-feedback {
+            display: none;
+            color: red;
+        }
+        .is-invalid ~ .invalid-feedback {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center">Product List</h1>
+    <div class="card mt-4">
+        <div class="card-body" id="formContainer">
+            <form id="productForm">
+                <div class="form-group">
+                    <label for="productID">Product ID:</label>
+                    <input type="number" class="form-control" id="productID" name="productID" required>
+                    <span class="invalid-feedback">Product ID is required.</span>
+                </div>
+                <div class="form-group">
+                    <label for="productName">Product Name:</label>
+                    <input type="text" class="form-control" id="productName" name="productName" required>
+                    <span class="invalid-feedback">Product Name is required.</span>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="productPrice">Product Price:</label>
+                        <input type="number" class="form-control" id="productPrice" name="productPrice" required>
+                        <span class="invalid-feedback">Product Price must be greater than zero.</span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="productQuantity">Product Quantity:</label>
+                        <input type="number" class="form-control" id="productQuantity" name="productQuantity" required>
+                        <span class="invalid-feedback">Product Quantity must be greater than zero.</span>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Add Product</button>
+            </form>
+        </div>
+    </div>
+    <div class="card mt-4">
+        <div class="card-body">
+            <table class="table table-bordered" id="productTable">
+                <thead class="thead-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody> 
+                <tr>
+                    <td>1</td>
+                    <td>Product 1</td>
+                    <td>$10.00</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Product 2</td>
+                    <td>$15.00</td>
+                    <td>10</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('productForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const productID = document.getElementById('productID').value;
+        const productName = document.getElementById('productName').value;
+        const productPrice = document.getElementById('productPrice').value;
+        const productQuantity = document.getElementById('productQuantity').value;
+
+        let isValid = true;
+
+        // Validate Price
+        if (productPrice <= 0) {
+            document.getElementById('productPrice').classList.add('is-invalid');
+            isValid = false;
+        } else {
+            document.getElementById('productPrice').classList.remove('is-invalid');
+            document.getElementById('productPrice').classList.add('is-valid');
+        }
+
+        // Validate Quantity
+        if (productQuantity <= 0) {
+            document.getElementById('productQuantity').classList.add('is-invalid');
+            isValid = false;
+        } else {
+            document.getElementById('productQuantity').classList.remove('is-invalid');
+            document.getElementById('productQuantity').classList.add('is-valid');
+        }
+
+        // Validate Product ID and Name
+        if (productID === '') {
+            document.getElementById('productID').classList.add('is-invalid');
+            isValid = false;
+        } else {
+            document.getElementById('productID').classList.remove('is-invalid');
+            document.getElementById('productID').classList.add('is-valid');
+        }
+
+        if (productName === '') {
+            document.getElementById('productName').classList.add('is-invalid');
+            isValid = false;
+        } else {
+            document.getElementById('productName').classList.remove('is-invalid');
+            document.getElementById('productName').classList.add('is-valid');
+        }
+
+        if (isValid) {
+            const newRow = document.createElement('tr');
+
+            const idCell = document.createElement('td');
+            idCell.textContent = productID;
+            newRow.appendChild(idCell);
+
+            const nameCell = document.createElement('td');
+            nameCell.textContent = productName;
+            newRow.appendChild(nameCell);
+
+            const priceCell = document.createElement('td');
+            priceCell.textContent = "$" + productPrice + ".00";
+            newRow.appendChild(priceCell);
+
+            const quantityCell = document.createElement('td');
+            quantityCell.textContent = productQuantity;
+            newRow.appendChild(quantityCell);
+
+            document.querySelector('#productTable tbody').appendChild(newRow);
+            document.getElementById('productForm').reset();
+            removeFormFieldStyles();
+        }
+    });
+
+    const formFields = document.querySelectorAll('#productForm .form-control');
+    const formContainer = document.getElementById('formContainer');
+
+    formFields.forEach(field => {
+        field.addEventListener('input', function() {
+            field.classList.remove('is-invalid');
+            field.classList.remove('is-valid');
+        });
+
+        field.addEventListener('blur', function() {
+            if (field.value === '') {
+                field.classList.add('is-invalid');
+            } else {
+                field.classList.add('is-valid');
+            }
+            checkFormValidity();
+        });
+    });
+
+    function checkFormValidity() {
+        let allValid = true;
+        formFields.forEach(field => {
+            if (field.value === '' || field.classList.contains('is-invalid')) {
+                allValid = false;
+            }
+        });
+
+        if (allValid) {
+            formContainer.classList.add('form-container-valid');
+        } else {
+            formContainer.classList.remove('form-container-valid');
+        }
+    }
+
+    function removeFormFieldStyles() {
+        formFields.forEach(field => {
+            field.classList.remove('is-valid');
+            field.classList.remove('is-invalid');
+        });
+        formContainer.classList.remove('form-container-valid');
+    }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

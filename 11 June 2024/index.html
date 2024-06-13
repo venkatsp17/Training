@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <script>
+           num1=90;
+           var greet=()=>alert("Hello");
+           var understandingVariables=()=>{
+            let num1 = 200;
+            window.num1 =300;//the global variable
+            console.log("The value of num1 in UnderstandingValriables "+num1);
+           }
+           var anotherMethod=()=>{
+              understandingVariables();
+              console.log(num1);
+           }
+           var undertsndingArray=()=>{
+             const scores=[100,90,89,67,70];
+             for (let index = 0; index < scores.length; index++) {
+                console.log(scores[index]);
+             }
+             console.log(scores[5])//undefined\
+             
+           }
+           var understandingNoValues=()=>{
+             var name = null;
+             var age;
+             console.log(age);
+             if(age === name)
+                console.log("yes")
+            else
+                console.log("no")
+           }
+           var understandingBoolean=()=>{
+            var name = null;
+             var age;
+             var result=false;
+             if(!name)
+                console.log("No name given");
+            if(!age)
+                console.log("No age given")
+            if(!result)
+                console.log("No result given")
+            
+            if(name == result)
+                console.log("Name and result are same")
+            else
+                console.log("not same")
+           }
+        </script>
+    </head>
+    <body> 
+        <h1>Hello from JS</h1>
+        <button onclick="understandingBoolean()">Click to call</button>
+    </body>
+    </html> 
