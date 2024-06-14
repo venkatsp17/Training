@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        .error-message {
+            color: red;
+            font-size: 0.875rem; /* 14px */
+            margin-top: 0.25rem;
+        }
+    </style>
+</head>
+<body class="h-screen w-full flex flex-row bg-slate-50">
+    <section class="bg-red-500 h-full w-1/2 flex items-center justify-center">
+        <img src="./image.png" class="mix-blend-darken">
+    </section>
+    <section class="h-full w-1/2 flex flex-col items-center justify-center">
+        <h1 class="text-blue-900 p-4 text-3xl font-bold text-left">Registration Form</h1>
+        <form id="registration-form" class="flex flex-col p-2 w-96">
+            <input id="fullname" class="bg-slate-50 mb-2 p-2 border-b border-blue-900 placeholder-blue-900" type="text" placeholder="Full Name"/>
+            <span id="fullname-error" class="error-message"></span>
+            <input id="phone" class="bg-slate-50 mb-2 p-2 border-b border-blue-900 placeholder-blue-900" type="tel" placeholder="Phone Number"/>
+            <span id="phone-error" class="error-message"></span>
+            <input id="dob" class="bg-slate-50 mb-2 p-2 border-b border-blue-900 placeholder-blue-900" type="date" placeholder="Date of Birth"/>
+            <span id="dob-error" class="error-message"></span>
+            <input id="email" class="bg-slate-50 mb-2 p-2 border-b border-blue-900 placeholder-blue-900" type="email" placeholder="Email"/>
+            <span id="email-error" class="error-message"></span>
+            <div>
+                <h1 class="font-bold text-blue-900">Gender</h1>
+                <div class="mb-2">
+                    <input id="gender-male" name="Gender" type="radio" /> Male
+                    <input id="gender-female" name="Gender" type="radio" /> Female
+                </div>
+                <span id="gender-error" class="error-message"></span>
+            </div>
+            <div>
+                <h1 class="font-bold text-blue-900">Qualification</h1>
+                <div class="mb-2">
+                    <input id="qualification-highschool" name="Qualification" type="checkbox"/> High School Diploma
+                </div>
+                <div class="mb-2">
+                    <input id="qualification-associate" name="Qualification" type="checkbox"/> Associate Degree
+                </div>
+                <div class="mb-2">
+                    <input id="qualification-bachelor" name="Qualification" type="checkbox"/> Bachelor’s Degree
+                </div>
+                <div class="mb-2">
+                    <input id="qualification-master" name="Qualification" type="checkbox"/> Master’s Degree
+                </div>
+                <div class="mb-2">
+                    <input id="qualification-phd" name="Qualification" type="checkbox"/> Doctorate (PhD)
+                </div>
+                <span id="qualification-error" class="error-message"></span>
+            </div>
+            <div class="mb-2">
+                <h1 class="font-bold text-blue-900">Profession</h1>
+                <select id="profession-select" class="p-2 border" name="Profession">
+                    <option value="">Select Profession</option>
+                    <!-- Options will be dynamically added via JavaScript -->
+                </select>
+                <span id="profession-error" class="error-message"></span>
+            </div>
+            <button id="submit-button" type="submit" class="bg-blue-900 text-white p-2 rounded">Submit</button>
+            <div id="form-error" class="error-message mt-2"></div>
+        </form>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
