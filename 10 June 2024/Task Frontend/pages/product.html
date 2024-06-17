@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header class="header">
     </header>
     <main class="product-page">
         <div class="products">
-            <div class="product" onclick="()=>{window.location='pages/productview.html'}">
+            <div class="product" onclick="productOnClick()">
                 <img src="../assets/image.png" alt="Product 1">
                 <h2>Men Printed Half Sleeve Cotton Shirt - Light Beige</h2>
                 <div class="price">
@@ -74,6 +76,7 @@
     </main>
     <footer class="footer">
     </footer>
+    <script src="../js/common.js"></script>
     <script src="../js/product.js"></script>
 </body>
 </html>
