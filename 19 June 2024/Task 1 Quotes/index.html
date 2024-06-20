@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <link rel="icon" href="https://example.com/icon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#" id="home-link">Home</a></li>
+                    <li><a href="#" id="quotes-link">Quotes</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <section id="home" class="section active">
+                <div class="landing-content">
+                    <h1>🙶Quotes</h1>
+                    <img src="https://images.unsplash.com/photo-1547721064-da6cfb341d50" alt="Inspirational Sunrise" class="center-image">
+                    <p>Discover a collection of inspiring quotes.</p>
+                    <button id="explore-quotes" class="cta-button">Explore Quotes</button>
+                </div>
+            </section>
+            <!-- <section id="quotes" class="section hidden">
+                <h1>Quotes</h1>
+                <input type="text" id="search" placeholder="Search quotes...">
+                <div id="quotes-container" class="cards-container"></div>
+                <div id="pagination">
+                    <button id="prev" disabled>Previous</button>
+                    <button id="next">Next</button>
+                </div>
+            </section> -->
+            <section id="quotes" class="section hidden">
+                <h1>Quotes</h1>
+                <div>
+                    <label for="sortOrder">Sort by Author:</label>
+                    <select id="sortOrder">
+                        <option value="asc">A-Z</option>
+                        <option value="desc">Z-A</option>
+                    </select>
+                </div>
+                <input type="text" id="search" placeholder="Search quotes...">
+                <div id="quotes-container" class="cards-container"></div>
+                <div id="pagination">
+                    <button id="prev" disabled>Previous</button>
+                    <button id="next">Next</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
