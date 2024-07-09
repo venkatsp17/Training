@@ -1,0 +1,32 @@
+83
+pull the instance of postgre
+84
+​
+85
+create a database - dbDocker
+86
+Create tables - Employee, Department, Salary with proper relation respectively
+87
+Insert data in to tables 
+88
+​
+89
+log off the instance
+90
+​
+91
+​
+92
+run instance again 
+93
+execute a select query that prints 
+94
+employee_name, age, phone, Department_name and salary
+95
+​
+96
+(He he) 😁
+
+
+JOBS
+

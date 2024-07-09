@@ -1,0 +1,16 @@
+FROM node:20-alpine
+
+COPY . /app
+
+WORKDIR /app
+
+CMD ["node", "app.js"]
+
+
+docker build -t firstimage .
+
+docker images
+
+docker run --name firstimage_a firstimage
+
+docker ps -a

@@ -1,0 +1,66 @@
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\appsettings.json
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\TestDockerProj.exe
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\TestDockerProj.deps.json
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\TestDockerProj.runtimeconfig.json
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\TestDockerProj.dll
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\TestDockerProj.pdb
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.csproj.AssemblyReference.cache
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.AssemblyInfo.cs
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.sourcelink.json
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets\msbuild.TestDockerProj.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets\msbuild.build.TestDockerProj.props
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TestDockerProj.props
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TestDockerProj.props
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\scopedcss\bundle\TestDockerProj.styles.css
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDock.D64D6756.Up2Date
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.dll
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\refint\TestDockerProj.dll
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.pdb
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.genruntimeconfig.cache
+C:\Users\vc\Desktop\Mini Project\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\ref\TestDockerProj.dll
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\appsettings.json
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\TestDockerProj.exe
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\TestDockerProj.deps.json
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\TestDockerProj.runtimeconfig.json
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\TestDockerProj.dll
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\TestDockerProj.pdb
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.csproj.AssemblyReference.cache
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.AssemblyInfoInputs.cache
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.AssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.csproj.CoreCompileInputs.cache
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.sourcelink.json
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets\msbuild.TestDockerProj.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets\msbuild.build.TestDockerProj.props
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TestDockerProj.props
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TestDockerProj.props
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\scopedcss\bundle\TestDockerProj.styles.css
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDock.D64D6756.Up2Date
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.dll
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\refint\TestDockerProj.dll
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.pdb
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\TestDockerProj.genruntimeconfig.cache
+C:\Users\vc\Desktop\Training\Docker\04 July 2024\TestDockerProjSolution\TestDockerProj\obj\Debug\net6.0\ref\TestDockerProj.dll

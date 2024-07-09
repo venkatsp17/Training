@@ -1,0 +1,47 @@
+# Use the official .NET SDK image for build stage
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+
+# Copy the project file and restore dependencies
+COPY *.csproj ./
+RUN dotnet restore
+
+# Copy the remaining files and build the project
+COPY . .
+RUN dotnet publish -c Release -o /app
+
+# Use the official .NET runtime image for runtime stage
+FROM mcr.microsoft.com/dotnet/aspnet:7.0
+WORKDIR /app
+COPY --from=build /app .
+
+# Set the entry point for the application
+ENTRYPOINT ["dotnet", "ShopAPI.dll"]
+
+
+
+
+
+
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+        - ACCEPT_EULA=Y
+        - MSSQL_SA_PASSWORD=Password!123
+    ports:
+       - "1433:1433"
+
+  webapi:
+     image: mywebapi
+     container_name: mywebapi_1
+     build:
+        context: .
+        dockerfile: Dockerfile
+     ports:
+        - "1234:80"
+     depends_on:
+        - sqlserver
