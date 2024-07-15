@@ -1,0 +1,37 @@
+Deploy a web app
+
+html js
+
+wordle
+
+Task
+Try creating a Virtual network and create a Vm hosting a html page
+
+VN
+VN-venkatsp
+
+Bastion
+VN-venkatsp-Bastion
+
+firewall
+VN-venkatsp-Firewall
+
+firewall-Policy
+VN-venkatsp-firewall-policy
+
+firewall-IP address
+vn-venkatsp-firewall
+
+
+59:15
+2:36
+
+
+SSh public key
+azureuser
+
+private ip - 
+10.0.0.4
+
+
+nginx-rule
