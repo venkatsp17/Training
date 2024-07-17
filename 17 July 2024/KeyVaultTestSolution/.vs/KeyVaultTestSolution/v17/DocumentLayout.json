@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04ED29F7-6593-4BE4-84D0-1C7E2E59C5AA}|KeyVaultTest\\KeyVaultTest.csproj|c:\\users\\vc\\desktop\\training\\17 july 2024\\keyvaulttestsolution\\keyvaulttest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ED29F7-6593-4BE4-84D0-1C7E2E59C5AA}|KeyVaultTest\\KeyVaultTest.csproj|solutionrelative:keyvaulttest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Migrations\\20240717155517_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KeyVaultTest\\Migrations\\20240717155517_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ED29F7-6593-4BE4-84D0-1C7E2E59C5AA}|KeyVaultTest\\KeyVaultTest.csproj|c:\\users\\vc\\desktop\\training\\17 july 2024\\keyvaulttestsolution\\keyvaulttest\\contexts\\tempdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ED29F7-6593-4BE4-84D0-1C7E2E59C5AA}|KeyVaultTest\\KeyVaultTest.csproj|solutionrelative:keyvaulttest\\contexts\\tempdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ED29F7-6593-4BE4-84D0-1C7E2E59C5AA}|KeyVaultTest\\KeyVaultTest.csproj|c:\\users\\vc\\desktop\\training\\17 july 2024\\keyvaulttestsolution\\keyvaulttest\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ED29F7-6593-4BE4-84D0-1C7E2E59C5AA}|KeyVaultTest\\KeyVaultTest.csproj|solutionrelative:keyvaulttest\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ED29F7-6593-4BE4-84D0-1C7E2E59C5AA}|KeyVaultTest\\KeyVaultTest.csproj|c:\\users\\vc\\desktop\\training\\17 july 2024\\keyvaulttestsolution\\keyvaulttest\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ED29F7-6593-4BE4-84D0-1C7E2E59C5AA}|KeyVaultTest\\KeyVaultTest.csproj|solutionrelative:keyvaulttest\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ED29F7-6593-4BE4-84D0-1C7E2E59C5AA}|KeyVaultTest\\KeyVaultTest.csproj|c:\\users\\vc\\desktop\\training\\17 july 2024\\keyvaulttestsolution\\keyvaulttest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{04ED29F7-6593-4BE4-84D0-1C7E2E59C5AA}|KeyVaultTest\\KeyVaultTest.csproj|solutionrelative:keyvaulttest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{320fd13f-632f-4b16-9527-a1adfe555f6c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240717155517_first.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Migrations\\20240717155517_first.cs",
+              "RelativeDocumentMoniker": "KeyVaultTest\\Migrations\\20240717155517_first.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Migrations\\20240717155517_first.cs",
+              "RelativeToolTip": "KeyVaultTest\\Migrations\\20240717155517_first.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:55:18.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "KeyVaultTest\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "KeyVaultTest\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:49:08.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Program.cs",
+              "RelativeDocumentMoniker": "KeyVaultTest\\Program.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Program.cs",
+              "RelativeToolTip": "KeyVaultTest\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:27:07.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "KeyVaultTest\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Models\\Product.cs",
+              "RelativeToolTip": "KeyVaultTest\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:28:59.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TempDB.cs",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Contexts\\TempDB.cs",
+              "RelativeDocumentMoniker": "KeyVaultTest\\Contexts\\TempDB.cs",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\Contexts\\TempDB.cs",
+              "RelativeToolTip": "KeyVaultTest\\Contexts\\TempDB.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:23:22.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\appsettings.json",
+              "RelativeDocumentMoniker": "KeyVaultTest\\appsettings.json",
+              "ToolTip": "C:\\Users\\vc\\Desktop\\Training\\17 July 2024\\KeyVaultTestSolution\\KeyVaultTest\\appsettings.json",
+              "RelativeToolTip": "KeyVaultTest\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T06:15:09.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

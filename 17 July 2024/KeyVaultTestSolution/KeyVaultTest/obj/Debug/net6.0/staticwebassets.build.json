@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8BwMVk9III75PgSffOwmVqpQ0PD0Il3S43+sXqrpTZc=",
+  "Source": "KeyVaultTest",
+  "BasePath": "_content/KeyVaultTest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
