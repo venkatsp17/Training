@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "resources": [
+        {
+            "type": "Microsoft.Sql/servers",
+            "apiVersion": "2023-08-01-preview",
+            "name": "vSqlServer",
+            "location": "eastus",
+            "properties": {
+                "administratorLogin": "azureuser",
+                "administratorLoginPassword": "Admin$123456"
+            }
+        },
+        {
+            "type": "Microsoft.Sql/servers/databases",
+            "apiVersion": "2023-08-01-preview",
+            "name": "[concat('vSqlServer/', 'vdatabse')]",
+            "dependsOn": [
+                "[resourceId('Microsoft.Sql/servers', 'vSqlServer')]"
+            ],
+            "location": "eastus",
+            "properties": {
+                "collation": "SQL_Latin1_General_CP1_CI_AS",
+                "edition": "Basic",
+                "requestedServiceObjectiveName": "Basic"
+            }
+        }
+    ]
+}
